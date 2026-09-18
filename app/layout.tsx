@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Thodu · తోడు",
-  description: "Everyday tasks, one step at a time. Telugu voice guidance with official sources.",
+  title: "Swayam · స్వయం",
+  description: "Your voice. Your language. Your independence. Source-backed everyday guidance in Telugu and English.",
   other: {
     "codex-preview": "development",
   },

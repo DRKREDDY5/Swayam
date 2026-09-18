@@ -1,4 +1,4 @@
-# Thodu · తోడు
+# Swayam · స్వయం
 
 A Telugu-first everyday-task companion for people who prefer speaking to typing. Week 6 Path B: red-team your own agent.
 
@@ -42,7 +42,7 @@ Local Wrangler development uses ignored `.dev.vars`; configure production values
 | --- | --- | --- |
 | Identity/credential disclosure | Client and server heuristics, no identity-data tools or database | Patterns are incomplete and may overblock; raw spoken audio reaches STT before screening |
 | Instruction attacks | Input checks plus exact guide-ID output allowlist | Novel phrasing can evade input checks; model may choose a wrong allowed guide |
-| Tool/transaction abuse | No KYC, payment or account lookup capabilities | Official actions must still be completed by the person outside Thodu |
+| Tool/transaction abuse | No KYC, payment or account lookup capabilities | Official actions must still be completed by the person outside Swayam |
 | Untrusted sources | Small reviewed registry; no user URL fetching or arbitrary document retrieval | Guide facts can become stale; maintain dates and recheck procedures |
 | Model failure | Timeout, strict JSON/output validation, deterministic fallback | Reduced freeform understanding during fallback |
 | Privacy | No application conversation/audio persistence, no raw request logging | Hosting/provider infrastructure has separate policies |
