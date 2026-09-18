@@ -11,10 +11,12 @@ try{
   await fs.writeFile(path.join(temp,`${name}.cjs`),output);
  }
  const require=createRequire(import.meta.url),{runAgent}=require(path.join(temp,'agent.cjs')),{CASES,checkCase}=require(path.join(temp,'evaluation-cases.cjs'));
+ const {getGuide,GUIDES,SOURCES,ACTIONS}=require(path.join(temp,'guides.cjs'));
+ for(const g of GUIDES){if(!g.steps.length||!ACTIONS[g.actionId]||g.sourceIds.some(id=>!SOURCES[id]))throw Error('Broken guide registry: '+g.id); for(const t of [g.title,g.summary,g.note,...g.steps])if(!t.te||!t.en)throw Error('Missing translation: '+g.id);}
  const results=[];
  for(const c of CASES){
   const actual=await runAgent({message:c.prompt,language:c.language,...c.context});
-  results.push({...c,actual,score:checkCase(c,actual)?'PASS':'FAIL',scope:'Actual application core; rules engine; no model API call'});
+  results.push({...c,actual,displayedStep:getGuide(actual.guideId||'')?.steps[actual.step||0]?.[c.language],score:checkCase(c,actual)?'PASS':'FAIL',scope:'Actual application core; rules engine; no model API call'});
  }
  const fixtures=[
   {name:'Extra output field',content:'{"guideId":"lpg","url":"https://example.invalid"}',finish:'stop'},

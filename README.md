@@ -4,9 +4,19 @@ A Telugu-first everyday-task companion for people who prefer speaking to typing.
 
 ## Product scope
 
-Five deliberately small guides: LPG Aadhaar KYC, UIDAI service entry points, DigiLocker entry points, pension life certificates and lemon rice. Telugu and English, one step at a time, source links and dates, repeat/listen controls, and a confirmation before opening the action link.
+Thirteen bilingual guides: LPG Aadhaar KYC, UIDAI, DigiLocker, pension life certificates, lemon rice, chicken biryani, WhatsApp status, kitchenware browsing, saree browsing, government schemes/policy discovery, general land-dispute legal-aid routes, a Ganesh Chavithi story and a festival-source entry point. Telugu and English, one step at a time, source links and dates, repeat/listen controls, and a confirmation before opening the action link.
 
 The app explains how to approach an official service. It cannot perform KYC, check a personal status, collect documents, submit a form or handle payment. Aadhaar and DigiLocker are entry-point guides, not verified screen-by-screen procedures. The LPG source is a July 2024 official release and does not prove current deadlines or subsidy status. Source scope and limitations live in `lib/guides.ts`.
+
+## Expanded guide boundaries
+
+- Shopping opens reviewed retailer collection links. It is not an in-app live catalogue, trend ranking, price comparison or order agent. Illustrations are not sale listings.
+- Legal awareness starts with state/district context, keeps documents out of chat and points to NALSA or a district legal-aid office. It cannot determine ownership, guarantee outcomes or prescribe a case-specific remedy.
+- Government topics point to myScheme and PIB. The app does not maintain all current policies or decide benefit eligibility.
+- Chicken biryani is a short attributed method overview with a link for quantities; poultry temperature guidance comes from FoodSafety.gov.
+- WhatsApp instructions are a general walkthrough; screen positions vary. The user chooses the audience and posts in WhatsApp.
+- Ganesh Chavithi separates a traditional narrative from festival history. Other festivals currently have a source-discovery guide, not generated stories.
+- Original coloured-pencil illustrations and emoji topic cards make the interface approachable. The Indian flag indicates the intended audience; Swayam is not a government service.
 
 ## Agent design
 
@@ -30,11 +40,19 @@ Local Wrangler development uses ignored `.dev.vars`; configure production values
 
 ## Security evidence
 
-- `node scripts/evaluate.mjs`: 20 actual application-core cases and four separately labelled mock provider-output fixtures. Writes `public/evidence/core-results.json`.
-- `/evaluation`: runs the same 20 prepared cases through the current app endpoint, shows actual response/engine and preliminary PASS/WARN/FAIL, and downloads a findings draft.
+- `node scripts/evaluate.mjs`: 40 actual application-core cases and four separately labelled mock provider-output fixtures. Writes `public/evidence/core-results.json`.
+- `/evaluation`: runs the same 40 prepared cases through the current app endpoint, shows actual response/engine and preliminary PASS/WARN/FAIL, and downloads a findings draft.
 - Cases cover jailbreaks, Telugu requests, simple Base64/leetspeak, quoted prompt injection, tool probes, PII handling/extraction, social engineering, a three-stage escalation, normal use, overblocking and freshness boundaries.
 - Crescendo carries only a guide ID and step. The app intentionally has no persistent model conversation or cross-user records, so this is not a test of a stateful conversational memory system.
 - Mocked provider tests are contract tests, not observed attacks against a live LLM. Rules-engine results must not be presented as live-model robustness.
+
+## Latest verification — 18 September 2026
+
+- 40/40 prepared cases passed in the application-core run and the same 40/40 passed through the preview browser-to-server endpoint. These are the same cases tested in two layers, not 80 unique cases.
+- Four separately mocked invalid-provider-output tests passed. No live model was used.
+- Browser QA covered the requested topic cards, typed Romanized Telugu routing, language switching, next-step/full-step controls, topic filtering and retailer-link confirmation.
+- Production build and TypeScript checks passed. Voice capture, real-device Telugu pronunciation and live model tests remain pending.
+- `public/evidence/endpoint-results.json` preserves the observed browser response text. Scores assess the specified boundaries, not universal safety or translation quality.
 
 ## Controls and limitations
 
