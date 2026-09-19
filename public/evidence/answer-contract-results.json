@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:49:39.727Z",
+  "generatedAt": "2026-09-19T02:12:05.409Z",
   "scope": "Application controls with MOCKED external search/model responses. No real provider, microphone or human Telugu review tested. A04 checks enforcement of a mocked reviewer verdict, not reviewer accuracy.",
   "liveProvidersTested": false,
   "results": [
@@ -26,7 +26,7 @@
             "url": "https://www.wikihow.com/Make-a-Paper-Boat",
             "title": "Make a paper boat",
             "publisher": "www.wikihow.com",
-            "retrievedAt": "2026-09-19T01:49:39.712Z",
+            "retrievedAt": "2026-09-19T02:12:05.396Z",
             "excerpt": "Fold a rectangular sheet of paper in half.",
             "contentKind": "page"
           }
@@ -62,7 +62,7 @@
             "url": "https://www.wikihow.com/Make-a-Paper-Boat",
             "title": "Make a paper boat",
             "publisher": "www.wikihow.com",
-            "retrievedAt": "2026-09-19T01:49:39.715Z",
+            "retrievedAt": "2026-09-19T02:12:05.398Z",
             "excerpt": "Fold a rectangular sheet of paper in half.",
             "contentKind": "page"
           }

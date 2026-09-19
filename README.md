@@ -4,7 +4,7 @@ Your voice. Your language. Your independence.
 
 A Telugu-first assistant inspired by parents who ask their children for help with everyday tasks. Speak naturally, receive a simple explanation with sources, and ask a follow-up. Thirteen authored shortcuts remain available for common tasks. The open-question pipeline needs Fireworks + You.com; optional cloud voice uses ElevenLabs.
 
-**Start with [docs/SETUP_AND_SUBMISSION.md](docs/SETUP_AND_SUBMISSION.md).** It contains the code map, Windows/local setup, exact API variables, provider links, privacy boundaries, test instructions and Week 6 checklist.
+**Start with [START_HERE.md](START_HERE.md).** Follow the laptop clone, API-key setup, phone checks and Week 6 red-team walkthrough. [docs/SETUP_AND_SUBMISSION.md](docs/SETUP_AND_SUBMISSION.md) contains the detailed code map and privacy boundaries.
 
 Hosted: https://swayam.drkreddy.chatgpt.site (owner-private).
 
