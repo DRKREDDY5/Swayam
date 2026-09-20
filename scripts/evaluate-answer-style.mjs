@@ -106,13 +106,15 @@ for (const [id, language, message] of [['STYLE06', 'en', 'Explain it in simpler 
     assert.match(trustedStyle, /method/i);
   });
 }
-await test('STYLE08', 'A new ordinary method can retain twelve ordered steps without a model string cutoff', async () => {
+await test('STYLE08', 'Existing complete twelve-step answers remain valid while new generation fits the display budget', async () => {
   const mock = providers({drafts: [Array.from({length: 12}, (_, index) => `Step ${index + 1}: Fold the paper in half.`)]});
   const answer = await answerQuestion({message: question, language: 'en'}, cfg, mock.fetcher);
   assert.equal(answer.kind, 'answer'); assert.equal(answer.paragraphs.length, 12);
   const request = draftRequest(mock), schema = schemaOf(request);
-  assert.equal(schema.properties.paragraphs.maxItems, 12);
-  assert.ok(!('maxLength' in schema.properties.paragraphs.items.properties.text));
+  const paragraphs = schema.properties.paragraphs;
+  assert.equal(paragraphs.maxItems, 12);
+  assert.equal(paragraphs.items.properties.text.maxLength, 230);
+  assert.ok(paragraphs.maxItems * paragraphs.items.properties.text.maxLength + (paragraphs.maxItems - 1) * 2 < 2800);
   assert.equal(request.body.max_tokens, 3200);
 });
 await test('STYLE09', 'Simplification wording without a trusted previous answer does not restrict a new task to three slots', async () => {
