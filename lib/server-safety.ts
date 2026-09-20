@@ -1,6 +1,6 @@
 // Server-only helpers. Counts contain no conversation text; limits are best-effort per Worker isolate.
 const counters=new Map<string,{start:number;count:number}>();
-export async function limitedBody(req:Request,max:number){
+export async function limitedBody(req:Pick<Request,'headers'|'body'>,max:number){
  if(Number(req.headers.get('content-length')||0)>max)throw Error('too-large');
  const reader=req.body?.getReader();if(!reader)return new Uint8Array();const chunks:Uint8Array[]=[];let size=0;
  try{for(;;){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>max){await reader.cancel();throw Error('too-large');}chunks.push(value);}}finally{reader.releaseLock();}

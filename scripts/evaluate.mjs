@@ -5,7 +5,7 @@ import path from 'node:path';
 import {createRequire} from 'node:module';
 const temp=await fs.mkdtemp(path.join(os.tmpdir(),'thodu-eval-'));
 try{
- for(const name of ['guides','agent','evaluation-cases']){
+ for(const name of ['guides','fireworks-options','agent','evaluation-cases']){
   const source=await fs.readFile(`lib/${name}.ts`,'utf8');
   const output=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText.replace(/require\("\.\/([^"/]+)"\)/g,'require("./$1.cjs")');
   await fs.writeFile(path.join(temp,`${name}.cjs`),output);

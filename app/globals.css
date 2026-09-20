@@ -155,3 +155,176 @@ body{color:#302b47}.brand-mark{background:#332d67;color:#ffda96;box-shadow:3px 3
   .intro h1{font-size:28px}
   .topic-grid{grid-template-columns:1fr}
 }
+/* Quiet paper, graphite edges, and generous space for the existing pencil art. */
+body{background-color:#f7f4ee;background-image:radial-gradient(#675b4510 .65px,transparent .65px);background-size:5px 5px}
+.swayam-shell{max-width:1440px;padding-inline:clamp(20px,4vw,64px)}
+.topbar{min-height:112px;border-bottom:1px solid #d8d0c3}
+.brand-mark{border-radius:50% 45% 48% 43%;box-shadow:2px 3px 0 #d6cbb5}
+.workspace{gap:clamp(24px,3vw,44px);padding-top:40px;align-items:start}
+.intro{border-radius:24px 24px 6px 24px;box-shadow:3px 5px 0 #e1dacd,0 15px 35px #342e5310}
+.intro h1{letter-spacing:-1.2px}.intro .eyebrow{font-size:11px;letter-spacing:1.7px}
+.greeting-button{width:100%;min-height:44px;color:#f7e5c7!important;white-space:normal;margin-top:4px}
+.greeting-button:hover{background:#ffffff12!important}
+.answer-side{border-color:#d6cec0;border-radius:5px 24px 8px 24px;box-shadow:0 10px 35px #473a2710;background:#fffdf8}
+.empty-answer{padding:32px 36px 24px;background:linear-gradient(135deg,#fffdf9,#f9f4e9)}
+.empty-answer h2{font-weight:600;font-size:clamp(27px,2.5vw,36px);line-height:1.55;max-width:590px}
+.family-art{height:300px;margin-block:12px;filter:contrast(1.04)}
+.quick-starts{padding-top:18px}.quick-starts>.trusted-sketch{display:none}
+.sketch-note{background:transparent;border:0;border-bottom:1px dashed #cec5b9;border-radius:0;padding:12px 0 20px}
+.sketch-note img{width:135px;height:125px}.sketch-note p{font-size:14px}
+.topics{padding-top:45px}.topics-heading{border-top:1px solid #d8d0c3;padding-top:24px}
+.topic-grid{gap:16px}.topic-card{background:#fffdf7!important;border-color:#ded6c9!important;box-shadow:0 3px 0 #e7e0d5!important;border-radius:5px 16px 5px 16px!important}
+.topic-card:hover{background:#f5f0e7!important}.topic-icon{filter:saturate(.65)}
+.topic-tabs [data-slot=tabs-list]{background:#eae5dc}.topic-hint{color:#716a63}
+.india-badge .india-flag{width:30px;height:20px;flex:none;border:1px solid #00000012}
+.topbar .brand-native::after{content:none}
+:focus-visible{outline:3px solid #8a6bba;outline-offset:4px}
+@media(min-width:1400px){.family-art{height:320px}}
+@media(max-width:780px){.topbar{min-height:88px}.workspace{padding-top:24px;gap:24px}.empty-answer{padding:25px 23px}.family-art{height:250px}.topics{padding-top:30px}.topic-card{min-height:155px!important}.india-badge{display:flex}.india-badge>span:last-child{display:none}.india-badge .india-flag{width:24px;height:16px}}
+@media(max-width:420px){.swayam-shell{padding-inline:max(12px,env(safe-area-inset-left))}.header-actions{gap:3px}.brand-name{font-size:22px}.brand-mark{width:30px;height:35px;font-size:24px}.brand{gap:6px}.topbar{gap:6px}.india-badge .india-flag{width:21px;height:14px}.family-art{height:220px}.topic-card{padding:16px 12px!important}}
+
+/* Keep the notebook drawings in the margins and the question journey legible. */
+.swayam-shell{
+  background-image:url('/images/everyday-sketches.svg');
+  background-size:760px 560px;
+  background-position:18px 120px;
+}
+.topbar{background:#f7f4eee8}
+.ask-reassurance p,.topics-heading>div{background:#f7f4eed9}
+.sketch-note p{background:#f7f4eee8}
+.intro .ask-form label,.transcript label{
+  display:block;
+  font-size:16px;
+  font-weight:600;
+  line-height:1.6;
+  color:#f7f1ff;
+}
+.transcript label{margin-bottom:9px}
+.transcript textarea{
+  width:100%;
+  min-height:130px;
+  padding:12px 14px;
+  border:1px solid #d5c9e0;
+  border-radius:12px;
+  background:#fffdf8;
+  color:#302b47;
+  font-size:18px;
+  line-height:1.7;
+  resize:vertical;
+}
+.transcript .inline-actions{margin-top:12px}
+.transcript .inline-actions button:first-child{background:#ffdb8f;color:#30254b}
+.voice-status,.audio-status{
+  padding:10px 12px;
+  border:1px solid #d4c7e3;
+  border-radius:10px;
+  font-size:15px;
+  line-height:1.6;
+  overflow-wrap:anywhere;
+}
+.voice-status{background:#f2edf8;color:#4d3e6f}
+.audio-status{background:#fff4da;color:#6b502b;border-color:#e4d3ad}
+.intro p.voice-status,.intro p.audio-status{
+  margin:14px 0 0;
+  font-size:15px;
+  line-height:1.7;
+  color:#fff5df;
+  border-color:#ffffff38;
+  background:#ffffff0e;
+}
+.question-echo{
+  width:100%;
+  min-width:0;
+  margin-bottom:24px;
+  padding:15px 18px;
+  border:1px solid #d9cfe1;
+  border-left:3px solid #8f77ad;
+  border-radius:3px 12px 12px 3px;
+  background:#f4eff8;
+  color:#372d4c;
+  overflow-wrap:anywhere;
+}
+.question-echo>span,.question-echo>strong,.question-echo>h2,.question-echo>h3{
+  display:block;
+  margin:0 0 5px;
+  font-size:13px;
+  font-weight:700;
+  line-height:1.6;
+  color:#635276;
+}
+.question-echo p{margin:0;font-size:19px;line-height:1.7}
+.answer-progress{display:flex;align-items:center;gap:12px;padding:14px 0;color:#65508f}
+.answer-progress svg{flex-shrink:0}
+.answer-progress p{margin:0;font-size:16px;line-height:1.7}
+.answer-request-error{
+  width:100%;
+  padding:15px 18px;
+  border:1px solid #dbb8b1;
+  border-radius:12px;
+  background:#fff0e9;
+  color:#793c35;
+  font-size:17px;
+  line-height:1.7;
+  overflow-wrap:anywhere;
+}
+/* One full illustration in DOM reading order, before the question heading. */
+.workspace{padding-top:24px}
+.sketch-note{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+  margin:0 0 16px;
+  padding:0 12px 14px;
+  border-bottom:1px dashed #cec5b9;
+}
+.sketch-note img{
+  display:block;
+  width:min(100%,252px);
+  height:auto;
+  flex:none;
+  object-fit:contain;
+}
+.sketch-note p{max-width:340px;text-align:center;font-size:14px;line-height:1.65}
+.intro{padding:24px 25px 22px}
+.intro h1{font-size:34px;line-height:1.45;margin-bottom:10px}
+.intro .eyebrow{margin-bottom:9px}
+.intro>p:not(.eyebrow){font-size:17px;line-height:1.7;margin-bottom:18px}
+@media(max-width:780px){
+  .swayam-shell{background-size:640px 472px;background-position:-58px 85px}
+  .workspace{padding-top:14px}
+  .ask-side{display:flex;flex-direction:column}
+  .sketch-note{
+    display:flex;
+    gap:8px;
+    margin:0 0 12px;
+    padding:0 8px 10px;
+    border-bottom:1px dashed #cec5b9;
+  }
+  .sketch-note img{width:168px;height:auto}
+  .sketch-note p{font-size:14px;line-height:1.55;max-width:350px}
+  .intro{padding:22px 21px 20px}
+  .intro h1{font-size:28px;line-height:1.45;letter-spacing:-.65px;margin-bottom:10px}
+  .intro .eyebrow{margin-bottom:10px}
+  .intro>p:not(.eyebrow){font-size:16px;line-height:1.7;margin-bottom:16px}
+  .voice-main{min-height:60px!important;font-size:18px!important}
+  .question-echo{padding:12px 14px;margin-bottom:18px}
+  .question-echo p{font-size:18px}
+  .transcript textarea{font-size:17px}
+  .transcript .inline-actions button{flex:1 1 auto}
+}
+@media(max-width:350px){
+  .sketch-note{gap:8px;padding:0 3px 8px;margin-bottom:10px}
+  .sketch-note img{width:144px;height:auto}
+  .sketch-note p{font-size:13px;line-height:1.6}
+  .intro{padding:20px 18px}
+  .intro h1{font-size:26px}
+}
+
+/* Clear request and optional playback state, without hiding the written answer. */
+.answer-progress{flex-wrap:wrap;align-items:center}.answer-progress p{flex:1;min-width:160px}.answer-progress small{display:block;font-size:.82em}.answer-ready,.playback-status{display:flex;align-items:center;gap:.5rem;color:#526a54;font-size:.86rem;line-height:1.65;margin:0 0 1rem}.playback-status{color:#6c5886}.answer-ready svg,.playback-status svg{flex-shrink:0}
+
+.answer-progress button{min-height:44px;height:auto}
+
+/* Keyboard and pointer controls keep a 44px target on every viewport. */
+.swayam-shell button,.swayam-shell [role="tab"],.swayam-shell select{min-height:44px}.citation-chips button,.answer-topline button{min-width:44px}
