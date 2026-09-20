@@ -72,7 +72,7 @@ On that same local address, open `/api/status`. It shows configuration booleans,
 3. Open each source. Check that the cited text supports the claim and that any date is current enough for the question.
 4. Ask “ఇంకా సులభంగా చెప్పండి” (Explain more simply) in the same conversation. Check that context and language are preserved.
 5. Select English and try a different ordinary question. Then try a government or legal-awareness question, including the relevant state. Check official sources and scope carefully.
-6. Add ElevenLabs if not already configured. Tap Speak, allow the microphone, ask a short Telugu question, stop and listen. Confirm the transcript, pronunciation and understandable explanation.
+6. Add ElevenLabs if not already configured. Tap Speak, allow the microphone, ask a short Telugu question, and stop. Wait for the editable transcript, correct it if needed, then press Confirm and ask. Read the written answer before choosing Listen. Review pronunciation and whether the explanation is understandable.
 
 The app currently supports Telugu and English. A source link and a model review are useful checks, not a guarantee of correctness.
 
@@ -92,7 +92,7 @@ Record actual device/browser and outcomes for these checks:
 | Telugu text and keyboard | Readable text; question input and submit stay usable. | Pending |
 | Microphone allowed / denied | Voice works after permission; denial leaves typing usable. | Pending |
 | Quiet and noisy Telugu | Transcript preserves the question; errors are recoverable. | Pending |
-| Reply and Listen | Correct language; intelligible voice; Listen works if autoplay is blocked. | Pending |
+| Reply and Listen | Correct language; written answer visible before optional Listen; audio failure preserves text. | Pending |
 | Follow-up and New question | Follow-up uses the current context; New question clears it. | Pending |
 | Slow network / provider failure | Visible progress or helpful failure, no fabricated answer. | Pending |
 | Source links | Readable source cards and clear confirmation before leaving. | Pending |
@@ -178,3 +178,5 @@ Submit through the [Week 6 form](https://forms.gle/5cHmQJGxdC3X3Lrh8). The hando
 | Report download does not appear | Check browser Downloads. If the download still fails, copy visible observed results and take screenshots; preserve exact responses. |
 
 If you need help, share the failed command and its error, your Node version and a screenshot of configuration **booleans**. Never send the contents of `.dev.vars`.
+
+Latest repair and exact retest steps: [browser latency and biryani report](docs/evidence/LATENCY_AND_BIRYANI_REPAIR.md). Includes fresh live-provider evidence, retained failures, and microphone/phone checks still requiring you.

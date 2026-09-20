@@ -1,0 +1,291 @@
+{
+  "testedAt": "2026-09-20T15:28:08.820Z",
+  "scope": "Actual rendered Chrome UI, live configured providers. First three cases concurrent, remaining sequential. All failures retained. No question/transcript/answer/source bodies, provider payloads, secrets, cookies, or tokens logged.",
+  "results": [
+    {
+      "caseId": "live-new-benign",
+      "language": "te",
+      "route": "uncached-ai",
+      "elapsedMs": 25414,
+      "httpStatus": 200,
+      "kind": "answer",
+      "reason": "source-backed-reviewed",
+      "outcome": "answer",
+      "renderedAnswer": true,
+      "usefulAnswer": true,
+      "usefulnessReview": "Complete planting/care/harvest. Dimensions20cmdepth/15cmopening match tight paired-label source audit. General lifestyle publisher; expertise not independently verified.",
+      "renderedParagraphs": 9,
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://en.saednews.com/c/30/13626"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "diagnostics": {
+        "requestId": "c4483b56-11c2-45b5-971f-918c66810446",
+        "caseId": "live-new-benign",
+        "elapsedMs": 25063,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 11,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 856,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 549,
+            "completionTokens": 36,
+            "totalTokens": 585,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 316,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 51,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 22859,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4430,
+            "completionTokens": 1549,
+            "totalTokens": 5979,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 10,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 942,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 5548,
+            "completionTokens": 28,
+            "totalTokens": 5576,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "response",
+            "elapsedMs": 4,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "pageErrorCount": 0
+    },
+    {
+      "caseId": "live-followup",
+      "language": "te",
+      "route": "uncached-ai",
+      "elapsedMs": 10959,
+      "httpStatus": 200,
+      "kind": "answer",
+      "reason": "source-backed-reviewed",
+      "outcome": "answer",
+      "renderedAnswer": true,
+      "usefulAnswer": true,
+      "usefulnessReview": "Three-paragraph same-topic planting/care/harvest summary; sources support included claims. Some numerical details change with newly retrieved sources, so exact numerical continuity is not claimed.",
+      "renderedParagraphs": 3,
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://reusegrowenjoy.com/how-to-grow-coriander-in-pots-simple-guide-and-tips/",
+        "https://www.idealhome.co.uk/garden/garden-advice/how-to-grow-coriander-in-pots"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "diagnostics": {
+        "requestId": "9dde19e4-3f71-4a2a-ad60-1e82e130eda5",
+        "caseId": "live-followup",
+        "elapsedMs": 10837,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 3313,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 2014,
+            "completionTokens": 30,
+            "totalTokens": 2044,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 312,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 30,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 6319,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4200,
+            "completionTokens": 561,
+            "totalTokens": 4761,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 1,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 857,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4926,
+            "completionTokens": 28,
+            "totalTokens": 4954,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "response",
+            "elapsedMs": 1,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "pageErrorCount": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-09-20T16:44:12.480Z",
+  "scope": "Real speech/transcription routes; synthetic provider callbacks, audio fixture, credentials, sessions, and timer signals. No network or actual microphone.",
+  "results": [
+    {
+      "name": "speak: browser cancellation reaches a pending provider request",
+      "passed": true
+    },
+    {
+      "name": "speak: already cancelled input never starts a provider request",
+      "passed": true
+    },
+    {
+      "name": "speak: the existing thirty-second provider timeout remains active",
+      "passed": true
+    },
+    {
+      "name": "transcribe: browser cancellation reaches a pending provider request",
+      "passed": true
+    },
+    {
+      "name": "transcribe: already cancelled input never starts a provider request",
+      "passed": true
+    },
+    {
+      "name": "transcribe: the existing thirty-second provider timeout remains active",
+      "passed": true
+    },
+    {
+      "name": "Speech still rejects arbitrary client text before provider access",
+      "passed": true
+    },
+    {
+      "name": "Speech still rejects a valid capability from a different session",
+      "passed": true
+    },
+    {
+      "name": "Transcription still rejects synthetic identity numbers before returning text",
+      "passed": true
+    },
+    {
+      "name": "Speech returns complete nonempty audio bytes rather than a detached stream",
+      "passed": true
+    },
+    {
+      "name": "An empty successful provider response becomes an explicit audio error",
+      "passed": true
+    },
+    {
+      "name": "Oversized or nonaudio provider bodies never masquerade as valid speech",
+      "passed": true
+    },
+    {
+      "name": "Empty recordings are rejected before transcription provider access",
+      "passed": true
+    }
+  ]
+}

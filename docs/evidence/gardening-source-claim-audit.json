@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-09-20T15:16:57.199Z",
+  "scope": "One bounded live You search for the public source cited in the rendered synthetic gardening answer. Boolean coverage only; source and provider bodies and configuration remain in memory. No answer generation.",
+  "publicURL": "https://en.saednews.com/c/30/13626",
+  "screenshot": "latency-acceptance-live-new-benign.png",
+  "sourceFound": true,
+  "publisherType": "general-lifestyle",
+  "publisherExpertiseVerified": false,
+  "rawChars": 5941,
+  "selectedChars": 5314,
+  "passageCount": 20,
+  "fullCoverage": {
+    "pot20cmWidth": false,
+    "pot20cmLength": false,
+    "pot20cmSize": true,
+    "pot20cmOpening": true,
+    "pot15cmDepth": true,
+    "seedsSoakedTwoDays": true,
+    "seedsDriedAfterSoaking": true,
+    "plantingHalfCmDepth": true,
+    "spacing2to5cm": true,
+    "germination5to10Days": true,
+    "sun4to5Hours": true,
+    "harvestAt20cm": true,
+    "cut2cmAboveSoil": true
+  },
+  "selectedCoverage": {
+    "pot20cmWidth": false,
+    "pot20cmLength": false,
+    "pot20cmSize": true,
+    "pot20cmOpening": true,
+    "pot15cmDepth": true,
+    "seedsSoakedTwoDays": true,
+    "seedsDriedAfterSoaking": true,
+    "plantingHalfCmDepth": true,
+    "spacing2to5cm": true,
+    "germination5to10Days": true,
+    "sun4to5Hours": true,
+    "harvestAt20cm": true,
+    "cut2cmAboveSoil": true
+  },
+  "conclusion": "Correction: broad dimension proximity proxies in this report crossed neighboring numbers and were misleading. The later strict adjacent-pair audit establishes a 20 cm depth and 15 cm opening, not the reversed dimensions. Refer to gardening-dimension-audit.json for dimension evidence. Other planting and harvesting checks are independent of the pot-dimension proxies. Publisher expertise remains unverified.",
+  "dimensionProxiesSuperseded": true,
+  "correctedDimensionAudit": "gardening-dimension-audit.json",
+  "correctedDimensions": {
+    "sourceSupportsDepth20": true,
+    "sourceSupportsDepth15": false,
+    "sourceSupportsOpening20": false,
+    "sourceSupportsOpening15": true
+  }
+}

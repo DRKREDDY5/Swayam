@@ -1,0 +1,30 @@
+{
+  "mode": "Actual hosted HTTPS browser, fresh contexts at page top; emulated viewports",
+  "applicationCommit": "d6ac6cbe9c1a0a2de3865a51da463422210116d6",
+  "results": [
+    {
+      "width": 320,
+      "height": 844,
+      "scrollY": 0,
+      "scrollWidth": 320,
+      "artworkVisible": true,
+      "speakVisible": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollY": 0,
+      "scrollWidth": 390,
+      "artworkVisible": true,
+      "speakVisible": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollY": 0,
+      "scrollWidth": 1440,
+      "artworkVisible": true,
+      "speakVisible": true
+    }
+  ]
+}

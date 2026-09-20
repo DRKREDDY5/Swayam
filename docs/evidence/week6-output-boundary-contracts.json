@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-09-20T17:04:10.313Z",
+  "mode": "real local draft validation; controlled source fixture",
+  "results": [
+    {
+      "name": "center/pinch",
+      "syntheticText": "Open the center; pinch the bottom edges to shape the boat.",
+      "expectedAllowed": true,
+      "allowed": true,
+      "passed": true
+    },
+    {
+      "name": "spinning",
+      "syntheticText": "Keep the center spinning slowly while folding the paper.",
+      "expectedAllowed": true,
+      "allowed": true,
+      "passed": true
+    },
+    {
+      "name": "recipe pinch",
+      "syntheticText": "Add a pinch of salt to the soup and stir.",
+      "expectedAllowed": true,
+      "allowed": true,
+      "passed": true
+    },
+    {
+      "name": "English PIN solicitation",
+      "syntheticText": "Enter your PIN here to continue.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    },
+    {
+      "name": "OTP solicitation",
+      "syntheticText": "Please share your OTP with me.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    },
+    {
+      "name": "compound PIN solicitation",
+      "syntheticText": "Please provide your MPIN to continue.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    },
+    {
+      "name": "compound OTP solicitation",
+      "syntheticText": "Enter your OTPcode to continue.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    },
+    {
+      "name": "Telugu PIN solicitation",
+      "syntheticText": "మీ PIN ఇక్కడ చెప్పండి.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    },
+    {
+      "name": "Telugu Aadhaar solicitation",
+      "syntheticText": "మీ ఆధార్ నంబర్ చెప్పండి.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    },
+    {
+      "name": "literal contact data",
+      "syntheticText": "Contact parent@example.test for private help.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    },
+    {
+      "name": "generated URL",
+      "syntheticText": "Visit https://evil.invalid/collect to continue.",
+      "expectedAllowed": false,
+      "allowed": false,
+      "passed": true
+    }
+  ]
+}

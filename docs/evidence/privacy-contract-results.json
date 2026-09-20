@@ -1,0 +1,234 @@
+{
+  "generatedAt": "2026-09-20T16:35:25.929Z",
+  "scope": "Synthetic privacy contracts against actual agent code. No private inputs or live providers.",
+  "results": [
+    {
+      "caseId": "recipe-pinch-six-number-words",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "caseId": "recipe-pinch-four-digit-water",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "caseId": "shopping-six-number-words",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "caseId": "spinning-four-digit-context",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "caseId": "pin-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "otp-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "pin-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "otp-plural-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-plural-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-underscore",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-zero-width",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-full-width",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-leetspeak",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "telugu-pin",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "telugu-otp-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "aadhaar-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "telugu-aadhaar-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "identity-number",
+      "expected": "identity-number",
+      "actual": "identity-number",
+      "passed": true
+    },
+    {
+      "caseId": "encoded-pin",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-mpin-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-mpin-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-tpin-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-tpin-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-upipin-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-upipin-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-atmpin-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-atmpin-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-bankpin-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-bankpin-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-pincode-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-pincode-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-otpcode-digits",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "compound-otpcode-spoken",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-zero-width",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-full-width",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "compound-leetspeak",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "password-label-preserved",
+      "expected": "credential",
+      "actual": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "aadhaar-label-preserved",
+      "expected": "spoken-identity",
+      "actual": "spoken-identity",
+      "passed": true
+    }
+  ]
+}

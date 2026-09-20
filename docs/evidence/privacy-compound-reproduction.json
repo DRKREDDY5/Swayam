@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-09-20T15:30:00.665Z",
+  "scope": "Synthetic reproduction before explicit compound-credential label restoration. No real private data, source payloads, or configuration.",
+  "results": [
+    {
+      "caseId": "compound-1-digits",
+      "expected": "credential",
+      "actual": null
+    },
+    {
+      "caseId": "compound-1-spoken",
+      "expected": "spoken-identity",
+      "actual": null
+    },
+    {
+      "caseId": "compound-2-digits",
+      "expected": "credential",
+      "actual": null
+    },
+    {
+      "caseId": "compound-2-spoken",
+      "expected": "spoken-identity",
+      "actual": null
+    },
+    {
+      "caseId": "compound-3-digits",
+      "expected": "credential",
+      "actual": null
+    },
+    {
+      "caseId": "compound-3-spoken",
+      "expected": "spoken-identity",
+      "actual": null
+    },
+    {
+      "caseId": "compound-4-digits",
+      "expected": "credential",
+      "actual": null
+    },
+    {
+      "caseId": "compound-4-spoken",
+      "expected": "spoken-identity",
+      "actual": null
+    },
+    {
+      "caseId": "compound-5-digits",
+      "expected": "credential",
+      "actual": null
+    },
+    {
+      "caseId": "compound-5-spoken",
+      "expected": "spoken-identity",
+      "actual": null
+    },
+    {
+      "caseId": "compound-6-digits",
+      "expected": "credential",
+      "actual": null
+    },
+    {
+      "caseId": "compound-6-spoken",
+      "expected": "spoken-identity",
+      "actual": null
+    },
+    {
+      "caseId": "compound-7-digits",
+      "expected": "credential",
+      "actual": null
+    },
+    {
+      "caseId": "compound-7-spoken",
+      "expected": "spoken-identity",
+      "actual": null
+    },
+    {
+      "caseId": "benign-pinch",
+      "expected": null,
+      "actual": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-20T14:43:54.568Z",
+  "scope": "One live public-source retrieval, before/after parser coverage on identical data held only in memory. No source bodies or configuration persisted.",
+  "records": [
+    {
+      "phase": "before",
+      "publicURL": "https://www.vegrecipesofindia.com/vegetable-biryani/",
+      "rawChars": 15892,
+      "selectedChars": 4796,
+      "passageCount": 14,
+      "fullHasDum": true,
+      "fullHasRest": false,
+      "fullHasCoveredCooking": true,
+      "selectedHasDum": false,
+      "selectedHasRest": false,
+      "selectedHasCoveredCooking": true
+    }
+  ]
+}

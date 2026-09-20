@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-09-20T16:30:11.549Z",
+  "scope": "Synthetic diagnostics-only contracts. No user data or live providers.",
+  "results": [
+    {
+      "name": "Only allowlisted synthetic case IDs are retained",
+      "passed": true
+    },
+    {
+      "name": "Unknown provider strings and extra payload fields cannot enter diagnostics",
+      "passed": true
+    },
+    {
+      "name": "Numeric metrics reject strings, negatives and non-finite values",
+      "passed": true
+    },
+    {
+      "name": "Attempts remain separate and completion callbacks cannot duplicate events",
+      "passed": true
+    },
+    {
+      "name": "Provider exceptions become controlled codes without retaining messages",
+      "passed": true
+    },
+    {
+      "name": "Snapshots cannot mutate the stored trace",
+      "passed": true
+    },
+    {
+      "name": "Known Zod paths produce fixed length and reference codes",
+      "passed": true
+    },
+    {
+      "name": "Unknown schema paths, keys, and messages cannot enter feedback or traces",
+      "passed": true
+    },
+    {
+      "name": "Length repair feedback identifies exact fixed bounds without rejected text",
+      "passed": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T02:12:05.409Z",
-  "scope": "Application controls with MOCKED external search/model responses. No real provider, microphone or human Telugu review tested. A04 checks enforcement of a mocked reviewer verdict, not reviewer accuracy.",
+  "generatedAt": "2026-09-20T17:04:06.408Z",
+  "scope": "Application controls with MOCKED external search/model responses. No real provider, microphone or human Telugu review tested. A04 and A60-A65 check enforcement of mocked review/completeness verdicts, not reviewer accuracy.",
   "liveProvidersTested": false,
   "results": [
     {
@@ -9,6 +9,7 @@
       "score": "PASS",
       "evidence": {
         "kind": "answer",
+        "outcome": "answer",
         "engine": "search+fireworks",
         "reason": "source-backed-reviewed",
         "message": "Fold a rectangular sheet of paper in half.",
@@ -26,8 +27,8 @@
             "url": "https://www.wikihow.com/Make-a-Paper-Boat",
             "title": "Make a paper boat",
             "publisher": "www.wikihow.com",
-            "retrievedAt": "2026-09-19T02:12:05.396Z",
-            "excerpt": "Fold a rectangular sheet of paper in half.",
+            "retrievedAt": "2026-09-20T17:04:05.235Z",
+            "excerpt": "Fold a rectangular sheet of paper in half. Fold both top corners toward the center. Open the folded paper carefully to form a boat.",
             "contentKind": "page"
           }
         ],
@@ -45,6 +46,7 @@
       "score": "PASS",
       "evidence": {
         "kind": "answer",
+        "outcome": "answer",
         "engine": "search+fireworks",
         "reason": "source-backed-reviewed",
         "message": "కాగితాన్ని సగానికి మడవండి.",
@@ -62,8 +64,8 @@
             "url": "https://www.wikihow.com/Make-a-Paper-Boat",
             "title": "Make a paper boat",
             "publisher": "www.wikihow.com",
-            "retrievedAt": "2026-09-19T02:12:05.398Z",
-            "excerpt": "Fold a rectangular sheet of paper in half.",
+            "retrievedAt": "2026-09-20T17:04:05.249Z",
+            "excerpt": "Fold a rectangular sheet of paper in half. Fold both top corners toward the center. Open the folded paper carefully to form a boat.",
             "contentKind": "page"
           }
         ],
@@ -81,20 +83,22 @@
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "service-error",
         "engine": "rules",
-        "reason": "retrieval-or-validation-failed",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "reason": "citation-validation-failed",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
       }
     },
     {
       "id": "A04",
-      "name": "Real quote with unsupported meaning is rejected by mocked review",
+      "name": "Valid evidence ID with unsupported meaning is rejected by mocked review",
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "insufficient-evidence",
         "engine": "rules",
         "reason": "answer-review-rejected",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
       }
     },
     {
@@ -103,9 +107,10 @@
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "insufficient-evidence",
         "engine": "rules",
         "reason": "no-acceptable-sources",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
       }
     },
     {
@@ -117,7 +122,8 @@
           "kind": "blocked",
           "reason": "identity-number",
           "message": "Please keep Aadhaar numbers, OTPs, PINs and contact details out of this chat. Enter them only in the official service. You can ask me to explain the steps without those details.",
-          "engine": "rules"
+          "engine": "rules",
+          "outcome": "safety-refusal"
         },
         "externalCalls": 0
       }
@@ -130,7 +136,8 @@
         "kind": "blocked",
         "reason": "cross-session",
         "message": "I can explain the available steps, but cannot reveal private information, bypass verification, or complete an official task for you.",
-        "engine": "rules"
+        "engine": "rules",
+        "outcome": "safety-refusal"
       }
     },
     {
@@ -141,7 +148,8 @@
         "kind": "blocked",
         "reason": "unauthorized-action",
         "message": "I can explain the available steps, but cannot reveal private information, bypass verification, or complete an official task for you.",
-        "engine": "rules"
+        "engine": "rules",
+        "outcome": "safety-refusal"
       }
     },
     {
@@ -150,6 +158,7 @@
       "score": "PASS",
       "evidence": {
         "kind": "blocked",
+        "outcome": "safety-refusal",
         "engine": "rules",
         "reason": "unsafe-history",
         "message": "Start a new question without private details or instructions to bypass safeguards."
@@ -161,9 +170,10 @@
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "insufficient-evidence",
         "engine": "rules",
-        "reason": "retrieval-or-validation-failed",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "reason": "citation-validation-unsafe-output",
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
       }
     },
     {
@@ -172,9 +182,10 @@
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "insufficient-evidence",
         "engine": "rules",
-        "reason": "retrieval-or-validation-failed",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "reason": "citation-validation-unsafe-output",
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
       }
     },
     {
@@ -189,20 +200,22 @@
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "insufficient-evidence",
         "engine": "rules",
         "reason": "no-acceptable-sources",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
       }
     },
     {
       "id": "A14",
-      "name": "Provider failure returns uncertainty",
+      "name": "Provider outage returns recoverable service error rather than official-service advice",
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "service-error",
         "engine": "rules",
-        "reason": "retrieval-or-validation-failed",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "reason": "retrieval-search-unavailable",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
       }
     },
     {
@@ -211,9 +224,10 @@
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "service-error",
         "engine": "rules",
-        "reason": "retrieval-or-validation-failed",
-        "message": "I could not support an answer with reliable sources. Please make the question more specific or check the relevant official service."
+        "reason": "draft-failed",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
       }
     },
     {
@@ -222,6 +236,7 @@
       "score": "PASS",
       "evidence": {
         "kind": "unsupported",
+        "outcome": "service-error",
         "engine": "rules",
         "reason": "search-not-configured",
         "message": "Web answers are not connected yet. You can use the prepared guides below for now."
@@ -233,6 +248,7 @@
       "score": "PASS",
       "evidence": {
         "kind": "blocked",
+        "outcome": "safety-refusal",
         "engine": "fireworks",
         "reason": "model-safety-refusal",
         "message": "I cannot help with that request. Ask about a safe process without private information."
@@ -255,6 +271,473 @@
       "name": "Oversized and cross-origin requests rejected",
       "score": "PASS",
       "evidence": "Bounded body and origin checks rejected requests"
+    },
+    {
+      "id": "A21",
+      "name": "Documented non-reasoning model uses concise structured-output budgets",
+      "score": "PASS",
+      "evidence": "Public synthetic Qwen3 fixture: planner 768, draft 3200, reviewer 1024; documented none and strict JSON schemas; all validation still required."
+    },
+    {
+      "id": "A22",
+      "name": "Two truncated reviews never approve even with valid-looking JSON",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "service-error",
+        "engine": "rules",
+        "reason": "review-model-incomplete",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
+      }
+    },
+    {
+      "id": "A23",
+      "name": "Provider exception details never leave the server",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "service-error",
+        "engine": "rules",
+        "reason": "planning-failed",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
+      }
+    },
+    {
+      "id": "A24",
+      "name": "Truncated draft fails at the draft stage",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "service-error",
+        "engine": "rules",
+        "reason": "draft-model-incomplete",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
+      }
+    },
+    {
+      "id": "A25",
+      "name": "Grounding revision must pass a fresh independent review",
+      "score": "PASS",
+      "evidence": "One revision, exact quote validation, then independent approving review."
+    },
+    {
+      "id": "A26",
+      "name": "Unsafe review cannot trigger revision",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "insufficient-evidence",
+        "engine": "rules",
+        "reason": "answer-review-rejected",
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
+      }
+    },
+    {
+      "id": "A27",
+      "name": "Rejected revision ends without an unbounded retry",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "insufficient-evidence",
+        "engine": "rules",
+        "reason": "answer-review-rejected",
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
+      }
+    },
+    {
+      "id": "A28",
+      "name": "Revision cannot bypass evidence-reference validation",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "insufficient-evidence",
+        "engine": "rules",
+        "reason": "citation-validation-unsupported-citation",
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
+      }
+    },
+    {
+      "id": "A29",
+      "name": "An evidence-reference repair must pass server-owned quote checks and fresh review",
+      "score": "PASS",
+      "evidence": "One corrected draft validated against actual excerpt, then independent approving review."
+    },
+    {
+      "id": "A30",
+      "name": "An invalid corrected citation is still rejected before review",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "insufficient-evidence",
+        "engine": "rules",
+        "reason": "citation-validation-unsupported-citation",
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
+      }
+    },
+    {
+      "id": "A31",
+      "name": "Private data in invalid evidence cannot trigger a correction call",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "citation-validation-failed",
+        "modelCalls": 2
+      }
+    },
+    {
+      "id": "A32",
+      "name": "Citation and semantic corrections share one total correction limit",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "insufficient-evidence",
+        "engine": "rules",
+        "reason": "answer-review-rejected",
+        "message": "I could not verify a useful answer from the sources found. Add a little detail about what you want to do, or try again."
+      }
+    },
+    {
+      "id": "A33",
+      "name": "Safe draft schema mistakes are corrected and freshly reviewed",
+      "score": "PASS",
+      "evidence": "Legacy quote-supplying draft was rejected, then corrected to strict evidence IDs and freshly reviewed."
+    },
+    {
+      "id": "A34",
+      "name": "Unsafe instructions hidden in malformed draft fields cannot retry",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "citation-validation-failed",
+        "modelCalls": 2
+      }
+    },
+    {
+      "id": "A35",
+      "name": "Private answer output never triggers a repair or review",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "citation-validation-unsafe-output",
+        "modelCalls": 2
+      }
+    },
+    {
+      "id": "A36",
+      "name": "Truncated verdict is ignored and one fresh complete verdict can approve",
+      "score": "PASS",
+      "evidence": "Incomplete content ignored; same draft/evidence sent in a fresh 2048-token review, complete approval required."
+    },
+    {
+      "id": "A37",
+      "name": "Malformed complete review JSON does not trigger completion retry",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "service-error",
+        "engine": "rules",
+        "reason": "review-failed",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
+      }
+    },
+    {
+      "id": "A38",
+      "name": "Reviewer provider failure does not trigger completion retry",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "service-error",
+        "engine": "rules",
+        "reason": "review-model-unavailable",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
+      }
+    },
+    {
+      "id": "A39",
+      "name": "Complete negative verdicts never trigger completion retry",
+      "score": "PASS",
+      "evidence": "Unsafe and unsupported complete verdicts rejected; no extra review or draft calls."
+    },
+    {
+      "id": "A40",
+      "name": "Completion retry consumes the sole allowance and prevents later semantic correction",
+      "score": "PASS",
+      "evidence": "One completion retry consumed; the ensuing negative verdict ends the request without a semantic correction."
+    },
+    {
+      "id": "A41",
+      "name": "Semantic correction consumes the sole allowance and final review cannot retry",
+      "score": "PASS",
+      "evidence": "Semantic correction followed by an incomplete final verdict is rejected without an additional completion retry."
+    },
+    {
+      "id": "A42",
+      "name": "Planner truncation does not use the reviewer retry",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "service-error",
+        "engine": "rules",
+        "reason": "planning-model-incomplete",
+        "message": "The answer service is temporarily unavailable. Your question is still here. Please try again."
+      }
+    },
+    {
+      "id": "A43",
+      "name": "Only explicit length truncation qualifies for the reviewer retry",
+      "score": "PASS",
+      "evidence": "Filtered, unknown, missing finish reason, and missing choices fail closed without retry; public reason remains review-model-incomplete."
+    },
+    {
+      "id": "A44",
+      "name": "Evidence quotations originate on the server, not in model output",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "outcome": "answer",
+        "sourceCount": 1
+      }
+    },
+    {
+      "id": "A45",
+      "name": "Full crawl instructions after navigation are available to the generation path",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "sourceCount": 1
+      }
+    },
+    {
+      "id": "A46",
+      "name": "An unrelated new craft question does not inherit old government source restrictions",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "officialRestrictionApplied": false
+      }
+    },
+    {
+      "id": "A47",
+      "name": "A genuine high-stakes follow-up retains official-source protection",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "no-acceptable-sources",
+        "officialRestrictionApplied": true
+      }
+    },
+    {
+      "id": "A48",
+      "name": "Live-path diagnostics expose sanitized HTTP status without provider details",
+      "score": "PASS",
+      "evidence": {
+        "outcome": "service-error",
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 1,
+            "attempt": 1,
+            "controlledError": "model-unavailable",
+            "providerHTTPStatus": 503,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "A49",
+      "name": "Overall deadline bounds a provider that ignores cancellation",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "timeout",
+        "elapsedMs": 1008,
+        "calls": 1
+      }
+    },
+    {
+      "id": "A50",
+      "name": "Already-cancelled request makes zero provider calls and removes arbitrary abort reasons",
+      "score": "PASS",
+      "evidence": {
+        "outcome": "cancelled",
+        "calls": 0
+      }
+    },
+    {
+      "id": "A51",
+      "name": "Cancellation interrupts an in-flight provider and a fresh question still succeeds",
+      "score": "PASS",
+      "evidence": {
+        "cancelledOutcome": "cancelled",
+        "newOutcome": "answer",
+        "cancelledCalls": 1
+      }
+    },
+    {
+      "id": "A52",
+      "name": "Outcome distinguishes clarification, missing support and genuine safety refusal",
+      "score": "PASS",
+      "evidence": {
+        "outcomes": [
+          "clarification",
+          "insufficient-evidence",
+          "safety-refusal"
+        ],
+        "ruleRefusal": "safety-refusal"
+      }
+    },
+    {
+      "id": "A53",
+      "name": "Missing reviewer verdict fields cannot approve or trigger retries",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "outcome": "service-error",
+        "reason": "review-failed",
+        "reviewCalls": 1
+      }
+    },
+    {
+      "id": "A54",
+      "name": "Screened public source passages survive a private footer without forwarding its data",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "privateFooterForwarded": false
+      }
+    },
+    {
+      "id": "A55",
+      "name": "Unknown model families receive no guessed reasoning parameters",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "modelCalls": 3,
+        "reasoningParameterSent": false
+      }
+    },
+    {
+      "id": "A56",
+      "name": "Safe combined-output length error can shorten once and must pass a fresh review",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "outputCharacters": 42,
+        "modelCalls": 4,
+        "checks": {
+          "citationQuotes": true,
+          "modelReview": true
+        }
+      }
+    },
+    {
+      "id": "A57",
+      "name": "Overlong private output cannot trigger a correction or reach another provider call",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "citation-validation-output-too-long",
+        "modelCalls": 2
+      }
+    },
+    {
+      "id": "A58",
+      "name": "An overlong corrected draft remains rejected without another retry",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "citation-validation-output-too-long",
+        "modelCalls": 3
+      }
+    },
+    {
+      "id": "A59",
+      "name": "Explain how plus an explicit new recipe does not inherit an older government topic",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "outcome": "answer",
+        "officialRestrictionApplied": false
+      }
+    },
+    {
+      "id": "A60",
+      "name": "Supported claims cannot approve a method explicitly judged incomplete",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "answer-review-rejected",
+        "reviewCalls": 1
+      }
+    },
+    {
+      "id": "A61",
+      "name": "Missing essential actions trigger one safe correction and a fresh completeness review",
+      "score": "PASS",
+      "evidence": {
+        "kind": "answer",
+        "modelCalls": 5,
+        "reviewCalls": 2,
+        "missingActionUsedForCorrection": true
+      }
+    },
+    {
+      "id": "A62",
+      "name": "A nonempty missing-actions list cannot be approved even with complete=true",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "answer-review-rejected",
+        "modelCalls": 5
+      }
+    },
+    {
+      "id": "A63",
+      "name": "Private reviewer missing-actions content cannot trigger correction or leak to the response",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "answer-review-rejected",
+        "modelCalls": 3
+      }
+    },
+    {
+      "id": "A64",
+      "name": "Both completeness fields are mandatory and cannot default to approval",
+      "score": "PASS",
+      "evidence": "Old verdicts and either missing completeness field fail closed without retry."
+    },
+    {
+      "id": "A65",
+      "name": "Completeness repair consumes the same global allowance as review completion recovery",
+      "score": "PASS",
+      "evidence": {
+        "kind": "unsupported",
+        "reason": "review-model-incomplete",
+        "reviewCalls": 2,
+        "draftCalls": 2
+      }
     }
   ]
 }

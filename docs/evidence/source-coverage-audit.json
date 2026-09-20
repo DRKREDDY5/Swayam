@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-09-20T03:38:02.875Z",
+  "scope": "Live You retrieval for public synthetic queries only. Source/provider bodies and configuration stay in memory; no answer generation.",
+  "results": [
+    {
+      "caseId": "source-audit-biryani",
+      "providerHTTPStatus": 200,
+      "coverage": [
+        {
+          "publicURL": "https://www.indianhealthyrecipes.com/chicken-biryani-recipe/",
+          "rawChars": 29540,
+          "selectedChars": 0,
+          "passageCount": 0,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://ministryofcurry.com/chicken-biryani/",
+          "rawChars": 10307,
+          "selectedChars": 1576,
+          "passageCount": 6,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": true,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://www.bbcgoodfood.com/recipes/chicken-biryani",
+          "rawChars": 1729,
+          "selectedChars": 0,
+          "passageCount": 0,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://www.recipetineats.com/biryani/",
+          "rawChars": 11574,
+          "selectedChars": 1816,
+          "passageCount": 12,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": true,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://recipes.timesofindia.com/recipes/chicken-biryani/rs53096628.cms",
+          "rawChars": 4976,
+          "selectedChars": 0,
+          "passageCount": 0,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://www.teaforturmeric.com/chicken-biryani/",
+          "rawChars": 19868,
+          "selectedChars": 3648,
+          "passageCount": 11,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": true,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        }
+      ]
+    },
+    {
+      "caseId": "source-audit-boat",
+      "providerHTTPStatus": 200,
+      "coverage": [
+        {
+          "publicURL": "https://kids.nationalgeographic.com/nature/article/make-a-paper-boat",
+          "rawChars": 2076,
+          "selectedChars": 1741,
+          "passageCount": 10,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": true,
+          "selectedHasFinalOpening": true
+        },
+        {
+          "publicURL": "https://www.instructables.com/Tiny-Paper-Boats/",
+          "rawChars": 1265,
+          "selectedChars": 0,
+          "passageCount": 0,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://www.wikihow.com/Make-a-Paper-Boat",
+          "rawChars": 12044,
+          "selectedChars": 4077,
+          "passageCount": 12,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": true,
+          "selectedHasFinalOpening": true
+        },
+        {
+          "publicURL": "https://www.bowdoin.edu/arctic-museum/pdf/paper-boat-final1.pdf",
+          "rawChars": 2325,
+          "selectedChars": 0,
+          "passageCount": 0,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://www.instructables.com/Paper-Boat-5/",
+          "rawChars": 2162,
+          "selectedChars": 1165,
+          "passageCount": 5,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": true,
+          "selectedHasFinalOpening": true
+        },
+        {
+          "publicURL": "https://www.youtube.com/playlist?list=PLBAtMGNBKd3VkduGW_7pNPmpfcpI66MaY",
+          "rawChars": 389,
+          "selectedChars": 0,
+          "passageCount": 0,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        }
+      ]
+    }
+  ]
+}

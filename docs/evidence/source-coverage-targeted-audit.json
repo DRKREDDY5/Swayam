@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-09-20T03:44:28.721Z",
+  "scope": "Live You retrieval for public synthetic queries only. Source/provider bodies and configuration stay in memory; no answer generation.",
+  "results": [
+    {
+      "caseId": "source-audit-myfoodstory",
+      "providerHTTPStatus": 200,
+      "coverage": [
+        {
+          "publicURL": "https://myfoodstory.com/chicken-biryani-recipe/",
+          "rawChars": 13653,
+          "selectedChars": 2646,
+          "passageCount": 10,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": true,
+          "fullHasRiceCupAmount": true,
+          "fullHasChickenGramAmount": true,
+          "fullHasYogurtAmount": true,
+          "selectedHasRiceCupAmount": true,
+          "selectedHasChickenGramAmount": true,
+          "selectedHasYogurtAmount": true,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://myfoodstory.com/boneless-chicken-biryani/",
+          "rawChars": 12494,
+          "selectedChars": 0,
+          "passageCount": 0,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": false,
+          "fullHasRiceCupAmount": true,
+          "fullHasChickenGramAmount": true,
+          "fullHasYogurtAmount": false,
+          "selectedHasRiceCupAmount": false,
+          "selectedHasChickenGramAmount": false,
+          "selectedHasYogurtAmount": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://myfoodstory.com/instant-pot-chicken-biryani/",
+          "rawChars": 13448,
+          "selectedChars": 1982,
+          "passageCount": 8,
+          "fullHasIngredientQuantities": true,
+          "selectedHasIngredientQuantities": true,
+          "fullHasRiceCupAmount": true,
+          "fullHasChickenGramAmount": true,
+          "fullHasYogurtAmount": true,
+          "selectedHasRiceCupAmount": true,
+          "selectedHasChickenGramAmount": true,
+          "selectedHasYogurtAmount": true,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        }
+      ]
+    },
+    {
+      "caseId": "source-audit-onelittleproject",
+      "providerHTTPStatus": 200,
+      "coverage": [
+        {
+          "publicURL": "https://onelittleproject.com/how-to-make-a-paper-boat/",
+          "rawChars": 7736,
+          "selectedChars": 2230,
+          "passageCount": 8,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasRiceCupAmount": false,
+          "fullHasChickenGramAmount": false,
+          "fullHasYogurtAmount": false,
+          "selectedHasRiceCupAmount": false,
+          "selectedHasChickenGramAmount": false,
+          "selectedHasYogurtAmount": false,
+          "fullHasFinalOpening": true,
+          "selectedHasFinalOpening": true
+        },
+        {
+          "publicURL": "https://onelittleproject.com/web-stories/how-to-make-a-paper-boat/",
+          "rawChars": 4155,
+          "selectedChars": 1494,
+          "passageCount": 9,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasRiceCupAmount": false,
+          "fullHasChickenGramAmount": false,
+          "fullHasYogurtAmount": false,
+          "selectedHasRiceCupAmount": false,
+          "selectedHasChickenGramAmount": false,
+          "selectedHasYogurtAmount": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        },
+        {
+          "publicURL": "https://onelittleproject.com/easy-crafts-for-kids/",
+          "rawChars": 6057,
+          "selectedChars": 1753,
+          "passageCount": 5,
+          "fullHasIngredientQuantities": false,
+          "selectedHasIngredientQuantities": false,
+          "fullHasRiceCupAmount": false,
+          "fullHasChickenGramAmount": false,
+          "fullHasYogurtAmount": false,
+          "selectedHasRiceCupAmount": false,
+          "selectedHasChickenGramAmount": false,
+          "selectedHasYogurtAmount": false,
+          "fullHasFinalOpening": false,
+          "selectedHasFinalOpening": false
+        }
+      ]
+    }
+  ]
+}

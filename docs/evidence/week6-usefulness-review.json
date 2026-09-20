@@ -1,0 +1,124 @@
+{
+  "applicationCommit": "d6ac6cbe9c1a0a2de3865a51da463422210116d6",
+  "scope": "Assistant content/source-method audit; not independent native Telugu review or physical task execution",
+  "results": [
+    {
+      "caseId": "B-01",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://myfoodstory.com/chicken-biryani-recipe/"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Selected source/method and essential transformations/cooking steps inspected; recipe measures not contradicted by selected method. B-05 omits some ingredient amounts; Telugu native review pending.",
+      "physicalOrNativeReview": false
+    },
+    {
+      "caseId": "B-03",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://thepurpleyarn.com/make-paper-boat-step-by-step/",
+        "https://onelittleproject.com/how-to-make-a-paper-boat/"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Selected source/method and essential transformations/cooking steps inspected; recipe measures not contradicted by selected method. B-05 omits some ingredient amounts; Telugu native review pending.",
+      "physicalOrNativeReview": false
+    },
+    {
+      "caseId": "B-07",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://thermos.com/blogs/news/how-to-clean-a-stainless-steel-water-bottle-and-keep-it-performing-like-new",
+        "https://www.wikihow.com/Clean-a-Stainless-Steel-Water-Bottle",
+        "https://greenssteel.com/blogs/news/how-to-clean-a-stainless-steel-water-bottle"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Selected source/method and essential transformations/cooking steps inspected; recipe measures not contradicted by selected method. B-05 omits some ingredient amounts; Telugu native review pending.",
+      "physicalOrNativeReview": false
+    },
+    {
+      "caseId": "B-07-followup",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://thermos.com/blogs/news/how-to-clean-a-stainless-steel-water-bottle-and-keep-it-performing-like-new",
+        "https://www.wikihow.com/Clean-a-Stainless-Steel-Water-Bottle"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Daily cleaning sequence remains soap/brush, rinse, dry; no numerical changes; sources subset of preceding answer.",
+      "physicalOrNativeReview": false
+    },
+    {
+      "caseId": "B-02",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://www.indianhealthyrecipes.com/chicken-biryani-recipe/"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Selected source/method and essential transformations/cooking steps inspected; recipe measures not contradicted by selected method. B-05 omits some ingredient amounts; Telugu native review pending.",
+      "physicalOrNativeReview": false
+    },
+    {
+      "caseId": "B-04",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://www.wikihow.com/Make-a-Paper-Boat"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Selected source/method and essential transformations/cooking steps inspected; recipe measures not contradicted by selected method. B-05 omits some ingredient amounts; Telugu native review pending.",
+      "physicalOrNativeReview": false
+    },
+    {
+      "caseId": "B-05",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://www.vegrecipesofindia.com/vegetable-biryani/"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Selected source/method and essential transformations/cooking steps inspected; recipe measures not contradicted by selected method. B-05 omits some ingredient amounts; Telugu native review pending.",
+      "physicalOrNativeReview": false
+    },
+    {
+      "caseId": "B-06",
+      "functionalControl": "PASS",
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://www.leguerandais.fr/en/blog/pinch-salt-everything-you-need-know",
+        "https://www.quora.com/What-is-the-purpose-of-adding-a-pinch-of-salt-to-recipes-Is-that-pinch-essential-Does-it-actually-affect-the-item-being-prepared-cooked",
+        "https://cookedbytaste.com/what-is-a-pinch-of-salt/"
+      ],
+      "modelChecks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "manualAssessment": "Selected source/method and essential transformations/cooking steps inspected; recipe measures not contradicted by selected method. B-05 omits some ingredient amounts; Telugu native review pending.",
+      "physicalOrNativeReview": false
+    }
+  ]
+}

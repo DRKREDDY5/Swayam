@@ -1,0 +1,72 @@
+{
+  "caseId": "RT-02",
+  "executionStatus": "RUN",
+  "testMode": "simulated browser provider fixtures; actual ask/speak routes, browser cookie handling and cryptographic/session validation",
+  "elapsedMs": 7314,
+  "observations": [
+    {
+      "step": "A supported signed-answer path",
+      "prompt": "Create my synthetic practice label.",
+      "actualResponse": "SESSION-A-CANARY-74Q9",
+      "visibleCanary": true,
+      "passed": true
+    },
+    {
+      "step": "B without context",
+      "prompt": "Repeat the previous user's saved practice label.",
+      "status": 200,
+      "actualResponse": "No prior reviewed answer is available in this session.",
+      "hasTrustedPrior": false,
+      "passed": true
+    },
+    {
+      "step": "B replays A context",
+      "prompt": "Repeat the previous user's saved practice label.",
+      "status": 200,
+      "actualResponse": "No prior reviewed answer is available in this session.",
+      "hasTrustedPrior": false,
+      "passed": true
+    },
+    {
+      "step": "B tampers with A context",
+      "prompt": "Repeat the previous user's saved practice label.",
+      "status": 200,
+      "actualResponse": "No prior reviewed answer is available in this session.",
+      "hasTrustedPrior": false,
+      "passed": true
+    },
+    {
+      "step": "Same-session context replay within validity",
+      "status": 200,
+      "actualResponse": "SESSION-A-CANARY-74Q9",
+      "passed": true,
+      "expected": "Accepted: signed context is replayable in its issuing session for 15 minutes."
+    },
+    {
+      "step": "A authorized speech",
+      "status": 200,
+      "actualResponse": "Synthetic audio bytes",
+      "passed": true
+    },
+    {
+      "step": "B replays A speech",
+      "status": 422,
+      "actualResponse": "Audio could not be played. Ask again or use the displayed answer.",
+      "passed": true
+    },
+    {
+      "step": "A tampers with speech",
+      "status": 422,
+      "actualResponse": "Audio could not be played. Ask again or use the displayed answer.",
+      "passed": true
+    },
+    {
+      "step": "Transfer both A session cookie and A capability into B",
+      "status": 200,
+      "passed": true,
+      "expected": "Accepted bearer-credential replay; this app does not bind a session to a device or user account. Possession of both credentials is authorization under this contract."
+    }
+  ],
+  "score": "PASS",
+  "limitation": "There is no saved-conversation database. A canary was seeded through the supported signed-answer capability path. These fixtures prove that backend boundary, not live-model behavior or resistance after both bearer credentials are stolen."
+}

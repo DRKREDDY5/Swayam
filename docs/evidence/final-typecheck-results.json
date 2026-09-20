@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-09-20T15:33:48.451Z",
+  "revisionNote": "After explicit compound credential labels; application code frozen",
+  "command": "node node_modules/typescript/bin/tsc --noEmit",
+  "exitCode": 0,
+  "elapsedMs": 7916,
+  "passed": true,
+  "errorCount": 0,
+  "outputSaved": false
+}

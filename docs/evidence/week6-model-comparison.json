@@ -1,0 +1,744 @@
+{
+  "generatedAt": "2026-09-20T16:22:47.146Z",
+  "mode": "live-provider pipeline experiment, not browser acceptance",
+  "candidate": "accounts/fireworks/models/deepseek-v4-flash-0731",
+  "conditions": "Configured model first, candidate second, identical in-memory live retrieval bundle per pair; compare model stages, not total time because only the first call pays retrieval. No app cache or prepared guides. Candidate is not adopted by this script.",
+  "results": [
+    {
+      "caseId": "B-01",
+      "label": "configured",
+      "prompt": "చికెన్ బిర్యానీ వండటమెలా",
+      "kind": "answer",
+      "outcome": "answer",
+      "reason": "source-backed-reviewed",
+      "actualResponse": "చికెన్ బిర్యానీకి ముఖ్యంగా బాస్మతి అన్నం, చికెన్, పెరుగు మరియు ఉల్లిపాయలు కావాలి. ఒక పద్ధతి ప్రకారం 2 కప్పుల బాస్మతి అన్నం, 700 గ్రాముల ఎముకతో ఉన్న చికెన్, 3/4 కప్పు పెరుగు, 1/4 కప్పు టొమాటో ప్యూరీ, 1 టేబుల్ స్పూన్ అల్లం-వెల్లుల్లి పేస్ట్, 1 టేబుల్ స్పూన్ ఎర్ర మిరప పొడి, 1 టీస్పూన్ పసుపు, 1 టీస్పూన్ గరం మసాలా, 1 1/4 టీస్పూన్ ఉప్పు, 2 టేబుల్ స్పూన్ల వేయించిన ఉల్లిపాయలు వాడతారు. అన్నం ఉడకబెట్టడానికి 6 కప్పుల నీరు, 2 టేబుల్ స్పూన్ల ఉప్పు, బిర్యానీ ఆకు, 5-6 లవంగాలు, 2-3 యాలకులు తీసుకోవాలి.\n\nముందుగా ఉల్లిపాయలను ముక్కలుగా కోసి, బాగా ఆరబెట్టి, మధ్యస్థ మంటపై 15 నిమిషాలు బంగారు రంగు వచ్చేవరకు వేయించి, కాగితంపై తీసి పక్కన పెట్టాలి. మరింత మంచి రుచి కోసం ఈ వేయించిన ఉల్లిపాయలను ముందు రోజే చేసి గాలి చొరని డబ్బాలో నిల్వ చేయవచ్చు. కాలిన ఉల్లిపాయలు బిర్యానీకి చేదు రుచి ఇస్తాయి కాబట్టి జాగ్రత్తగా వేయించాలి.\n\nచికెన్ మెరినేడ్ కోసం పెరుగు, టొమాటో ప్యూరీ, నూనె, అల్లం-వెల్లుల్లి పేస్ట్, ఎర్ర మిరప పొడి, పసుపు, గరం మసాలా, వేయించిన ఉల్లిపాయలు, ఉప్పు అన్నీ కలిపి, చికెన్ ముక్కలకు బాగా పట్టించి కనీసం రెండు గంటలు నానబెట్టాలి. రాత్రి అంతా నానబెట్టితే ఉత్తమం. అదే సమయంలో కొద్దిగా వేడి పాలలో కుంకుమపువ్వు వేసి నానబెట్టి పక్కన ఉంచాలి.\n\nఅన్నం కడిగి, పెద్ద మూతి గిన్నెలో నీరు మరిగించి, ఉప్పు, మసాలాలు వేసి, బాస్మతి అన్నం వేసి సరిగ్గా 5 నిమిషాలు ఉడకబెట్టి పూర్తిగా వడకట్టాలి. అప్పుడు అన్నం సుమారు 70 శాతం ఉడికి ఉంటుంది; రెండు వేళ్ల మధ్య ఒక మెతుకు నొక్కి చూస్తే లోపల పచ్చిగా ఉండాలి. మసాలాలు అన్నంలోనే ఉంచాలి.\n\nఇప్పుడు మందపు అడుగు గిన్నెలో చికెన్ వేసి 4 నిమిషాలు ఉడకబెట్టి, ముక్కలు తిప్పి, మూత పెట్టి మరో 3 నిమిషాలు ఉడకబెట్టి మంట ఆపేయాలి. సగం వేయించిన ఉల్లిపాయలు చికెన్ మీద పరచి, కొత్తిమీర, పుదీనా ఆకులు చల్లి, ఆ మీద అన్నం పరచి, చివరగా కుంకుమపువ్వు పాలు, నెయ్యి పోయాలి.\n\nగిన్నె మూత పెట్టి, సన్నని మంటపై 20 నిమిషాలు ఉడకబెట్టాలి; ఈ ఆవిరి వల్ల అన్నం పూర్తిగా ఉడికి, చికెన్ కూడా ఉడుతుంది. తర్వాత 5-10 నిమిషాలు అలాగే ఉంచి, మిగిలిన ఉల్లిపాయలు పైన చల్లి, వేడిగా వడ్డించాలి. స్పూన్ లోతుగా పెట్టి తీస్తే అన్ని పొరలు దొరుకుతాయి.",
+      "sourceUrls": [
+        "https://myfoodstory.com/chicken-biryani-recipe/"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "elapsedMs": 23169,
+      "diagnostics": {
+        "requestId": "032ba09d-4178-4221-b073-8b4b7cce71dc",
+        "elapsedMs": 23170,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 3,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 1202,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 542,
+            "completionTokens": 29,
+            "totalTokens": 571,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 1439,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 56,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 18708,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3908,
+            "completionTokens": 1515,
+            "totalTokens": 5423,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 8,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 1745,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4691,
+            "completionTokens": 28,
+            "totalTokens": 4719,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "usefulAnswer": null
+    },
+    {
+      "caseId": "B-01",
+      "label": "candidate",
+      "prompt": "చికెన్ బిర్యానీ వండటమెలా",
+      "kind": "answer",
+      "outcome": "answer",
+      "reason": "source-backed-reviewed",
+      "actualResponse": "చికెన్ బిర్యానీ వండడానికి ముందుగా చికెన్ ను మెరినేట్ చేయాలి. ఒక గిన్నెలో పెరుగు, అల్లం-వెల్లుల్లి పేస్ట్, ఉప్పు, గరం మసాలా, పసుపు, నిమ్మరసం, కారం పొడి వేసి బాగా కలపండి. చికెన్ ముక్కలపై గీతలు పెట్టి ఈ మెరినేడ్ లో వేసి బాగా కలపండి. కనీసం 1 గంట పాటు మూతపెట్టి పక్కన పెట్టండి (రాత్రంతా ఫ్రిజ్ లో ఉంచవచ్చు). ఇంతలో 2 కప్పుల బాస్మతి బియ్యాన్ని కడిగి 30 నిమిషాలు నానబెట్టండి. ఐచ్ఛికంగా కొద్దిగా కుంకుమపువ్వును 2 టేబుల్ స్పూన్ల వేడి పాలలో నానబెట్టండి.\n\nవెడల్పాటి పాన్/డచ్ ఓవెన్ లో 2 టేబుల్ స్పూన్ల నెయ్యి లేదా నూనె వేడి చేసి, సన్నగా తరిగిన పెద్ద ఉల్లిపాయను బంగారు రంగు వచ్చేవరకు వేయించండి (సుమారు 13-14 నిమిషాలు). వేయించిన ఉల్లిపాయలలో 2 టేబుల్ స్పూన్లు పక్కన పెట్టి, మిగిలినవి పాన్ లోనే ఉంచండి. ఇప్పుడు మెరినేట్ చేసిన చికెన్ ను వేసి మీడియం మంటపై 4-5 నిమిషాలు వేయించండి. తర్వాత ¼ కప్పు వేడి నీళ్లు పోసి, మూతపెట్టి మీడియం మంటపై 10-15 నిమిషాలు ఉడికించండి. చికెన్ దాదాపు ఉడికిన తర్వాత మంట ఆపండి.\n\nచికెన్ పైన నానబెట్టిన బియ్యాన్ని పొరగా పరచండి. ప్రత్యేక పాత్రలో 3 కప్పుల నీళ్లు పోసి ¾ టీస్పూన్ ఉప్పు వేసి కలపండి. నీళ్లు బాగా మరిగిన తర్వాత, 2 కప్పుల వేడి నీటిని పాత్ర అంచుల వెంబడి పోయండి. మిగిలిన నీటిని బియ్యం మీద సున్నితంగా పోయండి. పైన మిగిలిన పుదీనా ఆకులు, ఐచ్ఛికంగా వేయించిన ఉల్లిపాయలు, కుంకుమపువ్వు పాలు చల్లండి. పాత్రను మూతపెట్టి మీడియం మంటపై నీళ్లు మరిగే వరకు ఉడికించండి. తర్వాత మంట తగ్గించి 15-20 నిమిషాలు డమ్ చేయండి. మంట ఆపి 10-15 నిమిషాలు పక్కన పెట్టండి. బియ్యం ఉడకకపోతే కొద్దిగా వేడి నీళ్లు పోసి మూతపెట్టి ఉడికించండి.",
+      "sourceUrls": [
+        "https://www.indianhealthyrecipes.com/chicken-biryani-recipe/"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "elapsedMs": 17514,
+      "diagnostics": {
+        "requestId": "00dd5a81-ceea-4976-bac9-1b7f3604aa6c",
+        "elapsedMs": 17514,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 1,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 6750,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 541,
+            "completionTokens": 56,
+            "totalTokens": 597,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 4,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 82,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 9607,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3874,
+            "completionTokens": 1135,
+            "totalTokens": 5009,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 3,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 1064,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 5255,
+            "completionTokens": 28,
+            "totalTokens": 5283,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "usefulAnswer": null
+    },
+    {
+      "caseId": "B-03",
+      "label": "configured",
+      "prompt": "కాగితంతో పడవ ఎలా చేయాలి?",
+      "kind": "answer",
+      "outcome": "answer",
+      "reason": "source-backed-reviewed",
+      "actualResponse": "కాగితంతో పడవ చేయడానికి ఒక లెటర్ సైజు ప్రింటర్ కాగితం (8-1/2 బై 11 ఇంచులు) చాలు; ఏ రంగు అయినా సరే.\n\nమొదట కాగితాన్ని పొడవుగా సగం మడిచి, తిరిగి తెరవండి. తర్వాత వెడల్పుగా సగం మడవండి. మడత పైన ఉండేలా కాగితాన్ని తిప్పండి. పైనున్న రెండు మూలలను కిందికి మడిచి, అంచులు మధ్య మడతకు సరిపోయేలా చేయండి.\n\nకింది ఫ్లాప్ ఒక పొరను పైకి మడవండి. కాగితాన్ని తిప్పండి; వెనుక కనిపించే రెండు చిన్న ఫ్లాపులను వాలుగా మడవండి. మిగిలిన కింది ఫ్లాప్ను పైకి మడవండి.\n\nమడిచిన కాగితాన్ని చేతిలోకి తీసుకుని, కింద ఉన్న రంధ్రంలో బొటనవేళ్లు పెట్టి నెమ్మదిగా రెండు వైపులా విడదీయండి. అప్పుడు కాగితం మళ్లీ చదునుగా అవుతుంది; అన్ని మడతలపై వేళ్లు ఆడించి గట్టిగా నొక్కండి.\n\nకింది కొన నుంచి మొదలుపెట్టి, ఒక పొరను పైకి తీసుకెళ్లి కింది కొనను పై కొనతో కలపండి; అంచులు సరిపోయేలా చూసి నొక్కండి. కాగితాన్ని తిప్పి, మిగిలిన కింది కొనతో అదే విధంగా చేయండి.\n\nమళ్లీ కింది రంధ్రంలో బొటనవేళ్లు పెట్టి నెమ్మదిగా విడదీయండి; కాగితం చదునుగా అవుతుంది. అన్ని మడతలను వేళ్లతో నొక్కి సరిచేయండి.\n\nచివరగా పై కొన దగ్గర మడిచిన కాగితం రెండు వైపులా లాగండి; అది పడవ ఆకారంలో తెరుచుకుంటుంది. అవసరమైతే సరిచేసి, కింది అంచులను రెండు వైపులా నొక్కి మడత వేయండి. అంతే, మీ కాగితపు పడవ సిద్ధం.",
+      "sourceUrls": [
+        "https://onelittleproject.com/how-to-make-a-paper-boat/"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "elapsedMs": 15984,
+      "diagnostics": {
+        "requestId": "2edf7e5e-feca-4550-83ac-bf1081959e75",
+        "elapsedMs": 15984,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 2,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 947,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 543,
+            "completionTokens": 28,
+            "totalTokens": 571,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 3229,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 24,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 11122,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3511,
+            "completionTokens": 934,
+            "totalTokens": 4445,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 2,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 658,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3812,
+            "completionTokens": 28,
+            "totalTokens": 3840,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "usefulAnswer": null
+    },
+    {
+      "caseId": "B-03",
+      "label": "candidate",
+      "prompt": "కాగితంతో పడవ ఎలా చేయాలి?",
+      "kind": "answer",
+      "outcome": "answer",
+      "reason": "source-backed-reviewed",
+      "actualResponse": "కాగితంతో పడవ చేయడానికి ఒక దీర్ఘచతురస్రాకార కాగితం (లెటర్ సైజ్ ప్రింటర్ పేపర్, 8½ x 11 అంగుళాలు) సరిపోతుంది. ముందుగా కాగితాన్ని పొడవుగా (lengthwise) మడిచి, మళ్లీ విప్పండి. తర్వాత వెడల్పుగా (width-wise) మడిచి విప్పండి, తద్వారా మధ్యలో రెండు మడతలు ఏర్పడతాయి. కాగితాన్ని తిప్పి, మడత పైన ఉండేలా చూసుకోండి. పై రెండు మూలలను కిందికి మడిచి, అంచులు మధ్య మడతతో సమానంగా ఉండేలా చేయండి. ఇప్పుడు కింది ఫ్లాప్ యొక్క ఒక పొరను పైకి మడవండి. కాగితాన్ని తిప్పి, వెనుక ఉన్న చిన్న ఫ్లాప్లను వికర్ణంగా మడవండి. మిగిలిన కింది ఫ్లాప్ను కూడా పైకి మడవండి.\n\nఇప్పుడు మడిచిన కాగితాన్ని ఎత్తి, కింది ఓపెనింగ్లో బొటనవేళ్లు పెట్టి నెమ్మదిగా రెండు వైపులా లాగండి. కాగితం చదునుగా అయ్యే వరకు లాగండి, ఆపై అన్ని మడతలపై వేళ్లతో నొక్కి చదును చేయండి. కింది కొన నుండి ఒక పొరను తీసుకుని, కింది కొనను పై కొనతో కలిసేలా పైకి మడవండి, అంచులు సమానంగా ఉండేలా చూసుకోండి. కాగితాన్ని తిప్పి, మిగిలిన కింది కొనను కూడా అదే విధంగా పైకి మడవండి. మళ్లీ కాగితాన్ని ఎత్తి, కింది ఓపెనింగ్లో బొటనవేళ్లు పెట్టి లాగి చదును చేయండి, మడతలను నొక్కండి.\n\nచివరగా, మడిచిన కాగితాన్ని ఎత్తి, పై కొన వద్ద రెండు వైపులను విడిగా లాగండి. అలా లాగగానే అది పడవ ఆకారంలో తెరుచుకుంటుంది. అవసరమైతే సర్దుబాటు చేసి, కింది అంచులను రెండు వైపులా నొక్కి మడతలు వేయండి. మీ కాగితపు పడవ సిద్ధం! ఇది నీటిలో తేలుతుంది.",
+      "sourceUrls": [
+        "https://onelittleproject.com/how-to-make-a-paper-boat/",
+        "https://www.thesprucecrafts.com/easy-origami-boat-instructions-4057416"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "elapsedMs": 8538,
+      "diagnostics": {
+        "requestId": "d9540e94-e3a4-4000-b006-21ee814d66de",
+        "elapsedMs": 8538,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 840,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 542,
+            "completionTokens": 41,
+            "totalTokens": 583,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 1,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 34,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 6693,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3510,
+            "completionTokens": 981,
+            "totalTokens": 4491,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 4,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 965,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4640,
+            "completionTokens": 28,
+            "totalTokens": 4668,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "usefulAnswer": null
+    },
+    {
+      "caseId": "B-07",
+      "label": "configured",
+      "prompt": "స్టీల్ నీళ్ల బాటిల్‌ను ఎలా శుభ్రం చేయాలి?",
+      "kind": "answer",
+      "outcome": "answer",
+      "reason": "source-backed-reviewed",
+      "actualResponse": "స్టీల్ నీళ్ల బాటిల్‌ను శుభ్రం చేయడానికి వెచ్చని నీరు, కొన్ని చుక్కల డిష్ సోప్, పొడవాటి కాడ ఉన్న బాటిల్ బ్రష్, స్ట్రా ఉంటే స్ట్రా బ్రష్ సిద్ధం చేసుకోండి. మూతను వీలైనంత వరకు విడదీయండి; గాస్కెట్ వస్తే తీసి, స్ట్రా భాగాలను వేరు చేయండి.\n\nబాటిల్‌లో వెచ్చని సోపు నీరు నింపి, బ్రష్‌తో లోపలి అంతా రుద్దండి. అడుగు భాగం, గోడలు లోపలికి వంగే భుజం ప్రాంతంలో మురికి చేరుతుంది కాబట్టి అక్కడ ప్రత్యేకంగా శుభ్రం చేయండి. మూతలోని ప్రతి భాగాన్ని, ముఖ్యంగా తేమ పట్టుకునే గాస్కెట్‌ను విడిగా సోపు నీటితో రుద్దండి. స్ట్రా ఉంటే స్ట్రా బ్రష్‌ను రెండు వైపులా పూర్తి పొడవునా పోనిచ్చి కడగండి.\n\nఅన్ని భాగాలను శుభ్రమైన నీటితో సోపు మిగలకుండా పూర్తిగా కడగండి; మిగిలిన సోపు తర్వాతి పానీయం రుచిని ప్రభావితం చేస్తుంది. బాటిల్‌ను తలకిందులుగా పెట్టి, మూత, స్ట్రా భాగాలను శుభ్రమైన ఉపరితలంపై పెట్టి పూర్తిగా గాలిలో ఆరనివ్వండి. అన్నీ పూర్తిగా ఆరిన తర్వాతే తిరిగి అమర్చండి.",
+      "sourceUrls": [
+        "https://thermos.com/blogs/news/how-to-clean-a-stainless-steel-water-bottle-and-keep-it-performing-like-new"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "elapsedMs": 9862,
+      "diagnostics": {
+        "requestId": "3c954a0e-cba7-47b7-90a7-e2c184290415",
+        "elapsedMs": 9862,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 771,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 558,
+            "completionTokens": 27,
+            "totalTokens": 585,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 177,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 34,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 8056,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3171,
+            "completionTokens": 703,
+            "totalTokens": 3874,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 3,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 820,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 2908,
+            "completionTokens": 28,
+            "totalTokens": 2936,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "usefulAnswer": null
+    },
+    {
+      "caseId": "B-07",
+      "label": "candidate",
+      "prompt": "స్టీల్ నీళ్ల బాటిల్‌ను ఎలా శుభ్రం చేయాలి?",
+      "kind": "answer",
+      "outcome": "answer",
+      "reason": "source-backed-reviewed",
+      "actualResponse": "స్టీల్ నీళ్ల బాటిల్‌ను శుభ్రం చేయడానికి ముందుగా మూతను విప్పి, మూతలోని రబ్బరు పట్టీ (gasket), గడ్డి (straw) వంటి విడిభాగాలను వేరు చేయండి. బాటిల్‌లో వెచ్చని నీరు మరియు కొన్ని చుక్కల డిష్ సోప్ వేసి, పొడవాటి బాటిల్ బ్రష్‌తో లోపలి గోడలను, ముఖ్యంగా అడుగు భాగం మరియు గోడలు వంపు తిరిగే ప్రాంతాలను బాగా రుద్దండి. మూతలోని ప్రతి భాగాన్ని విడిగా సబ్బు నీటితో చిన్న బ్రష్‌తో శుభ్రం చేయండి. గడ్డి ఉంటే, దాని బ్రష్‌ను రెండు దిశలలో లోపలికి పంపించి శుభ్రం చేయండి. (E1, E24, E25, E26)\n\nఅన్ని భాగాలను శుభ్రమైన నీటితో బాగా కడగాలి, సబ్బు అవశేషాలు లేకుండా చూసుకోవాలి. సబ్బు మిగిలితే తర్వాత నీటి రుచిని మార్చవచ్చు. బాటిల్‌ను తలకిందులుగా పెట్టి, మూత మరియు గడ్డి భాగాలను శుభ్రమైన ఉపరితలంపై పెట్టి పూర్తిగా ఆరనివ్వండి. అన్నీ పూర్తిగా ఆరిన తర్వాతే మళ్లీ అమర్చాలి, లేకపోతే తేమ వల్ల సూక్ష్మక్రిములు పెరిగే అవకాశం ఉంది. (E2, E27, E28)\n\nదుర్వాసన లేదా మరకలు ఉంటే, బాటిల్‌లో 1 టీస్పూన్ బేకింగ్ సోడా వేసి వెచ్చని నీటితో నింపి 15 నిమిషాలు లేదా రాత్రంతా నాననివ్వండి, తర్వాత కడిగి ఆరబెట్టండి. లేదా 2 టేబుల్‌స్పూన్ల తెల్ల వెనిగర్ నీటితో కలిపి 10 నిమిషాలు లేదా రాత్రంతా నాననివ్వండి, తర్వాత సబ్బుతో రుద్ది కడగాలి. నెలకు ఒకసారి ఈ లోతైన శుభ్రత చేయడం మంచిది. (E3, E5, E4)",
+      "sourceUrls": [
+        "https://thermos.com/blogs/news/how-to-clean-a-stainless-steel-water-bottle-and-keep-it-performing-like-new",
+        "https://www.wikihow.com/Clean-a-Stainless-Steel-Water-Bottle"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "elapsedMs": 9937,
+      "diagnostics": {
+        "requestId": "c260a1fd-6336-4089-9456-345bf11441ce",
+        "elapsedMs": 9937,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 1668,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 557,
+            "completionTokens": 30,
+            "totalTokens": 587,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 34,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 7316,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3170,
+            "completionTokens": 937,
+            "totalTokens": 4107,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 5,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 913,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4696,
+            "completionTokens": 28,
+            "totalTokens": 4724,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "usefulAnswer": null
+    }
+  ],
+  "retained": false,
+  "decision": "Rejected: candidate omitted main chicken quantities, introduced an extra unfold in the boat procedure, and exposed evidence IDs/mixed optional cleaning variants. Its own model review approved these; speed alone is insufficient. Original configuration restored."
+}

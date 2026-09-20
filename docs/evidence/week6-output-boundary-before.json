@@ -1,0 +1,8 @@
+{
+  "case": "Benign center/pinch phrase",
+  "syntheticText": "Open the center; pinch the bottom edges to shape the boat.",
+  "rejected": true,
+  "stage": "citation-validation",
+  "source": "actual validateDraft code",
+  "finding": "An unbounded enter/pin solicitation expression matches substrings in center and pinch."
+}

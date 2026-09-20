@@ -25,7 +25,7 @@ This folder IS the full application source, like the ARIA starter repository. It
 1. Install Node.js 22.13 or newer (an active LTS version is suitable), VS Code/Cursor and pnpm 11.25.0. Use `npm install -g pnpm@11.25.0` if pnpm is absent.
 2. Extract the source ZIP. Open its Swayam folder in your editor, then open a terminal there.
 3. Run `pnpm install` and wait for completion.
-4. Create `.dev.vars` in the SAME folder as package.json. Copy `.env.example` contents into it, then fill your own values locally.
+4. Keep your existing `.dev.vars` in the SAME folder as package.json. Only if it does not exist, copy `.env.example` to `.dev.vars` and fill your own values locally.
 5. Run `pnpm dev`. Open the address printed by the terminal. The project chooses portable mode automatically in a clean clone.
 6. Restart the terminal server when keys change. The cloud hosted app has separate settings; a local file does not update it.
 
@@ -53,7 +53,7 @@ Official API references used for the implemented adapters:
 
 ## What the voice flow does
 
-Tap microphone → consent → up to 25 seconds recording → transcription → privacy screen → brief transcript display → submit automatically → search and answer checks → read aloud when the browser permits playback. Listen is available if autoplay is blocked. Browser recognition/voices are fallbacks; Telugu availability depends on the device. Voice may reach the speech provider before transcript screening; application non-storage does not imply provider zero retention. ElevenLabs documents zero-retention requests as an enterprise feature. Do not speak real identity details.
+Tap microphone → consent → microphone permission → Listening (up to 25 seconds) → Transcribing → privacy screen → editable “What I heard” → explicit Confirm and ask → source checks → written answer. The confirmed question remains visible. Listen is optional; playback failure never removes the written answer. Cancel discards a pending recording/transcript. Browser recognition/voices are fallbacks; Telugu availability depends on the device. Voice may reach the speech provider before transcript screening; application non-storage does not imply provider zero retention. ElevenLabs documents zero-retention requests as an enterprise feature. Do not speak real identity details.
 
 Questions are not limited to the shortcut catalogue. With all web-answer settings configured, the planner can search broader everyday topics. No evidence or failed validation means no generated factual answer. This is a source-backed assistant, not a guarantee of truth for every question. English and Telugu are the implemented languages; other Indian languages are future work.
 
@@ -61,11 +61,23 @@ Questions are not limited to the shortcut catalogue. With all web-answer setting
 
 No application database of users, chats, Aadhaar records, uploaded documents or voice recordings. Up to four prior questions live only in current page memory; New question clears them, and a reload drops them. No account lookup, KYC submission, purchases or payment tools exist. The model does not receive environment secrets. PII heuristics run before text reaches providers, and generated output is scanned. These heuristics do not detect every name, address or novel identifier format. No persistent Mem0/Pinecone memory is connected.
 
-Government/legal/financial topics use a server-enforced official-domain policy; medical sources are limited to public health institutions. General domains are broader and still need human credibility review. Search results are untrusted; obvious instructions are filtered, URLs are validated, every generated paragraph needs an exact supporting quote, and a separate model call checks the meaning. This review is probabilistic, not proof. Publication dates are distinct from retrieval dates. No arbitrary user URL fetch is exposed. Returned prose is rendered as text, never HTML.
+Government/legal/financial topics use a server-enforced official-domain policy; medical sources are limited to public health institutions. General domains are broader and still need human credibility review. Search results are untrusted; obvious instructions are filtered, URLs are validated, every generated paragraph references server-owned evidence IDs that resolve to exact source passages, and a separate model call checks support and procedure completeness. Unknown IDs or incomplete/negative reviews never approve an answer. This review is probabilistic, not proof. Publication dates are distinct from retrieval dates. No arbitrary user URL fetch is exposed. Returned prose is rendered as text, never HTML.
 
 Audio for generated answers is signed by the server, expires in 15 minutes and is bound to an HTTP-only browser-session cookie. This is replay isolation, not user authentication. Private hosted access is supplied by Sites. Do not deploy publicly elsewhere without authentication, durable quotas and an operational security review. Current rate limits are best-effort per Worker isolate; they are not global billing protection.
 
-## Tests already run
+## Latest latency and biryani repair
+
+See [the current browser, latency and source-quality report](evidence/LATENCY_AND_BIRYANI_REPAIR.md). It records fresh browser reproduction, all intermediate failures, the final live sample, bounded evidence and retries, cancellation, layout screenshots, and exact retest instructions. It supersedes earlier latency/readiness claims. The optional non-secret `ANSWER_DEADLINE_MS` setting defaults to 60000; keep your existing API configuration.
+
+## Browser journey follow-up repair
+
+See [the follow-up browser verification report](evidence/FOLLOWUP_REPAIR.md) for the actual UI reproduction, editable transcript confirmation, written-answer/audio separation, first-viewport artwork, and sanitized rendered evidence. This supersedes earlier CLI-only readiness claims.
+
+## Current implementation verification
+
+See [the implementation and retest report](evidence/IMPLEMENTATION_VERIFICATION.md) for the reproduced paper-boat failure, reasoning-budget fix, actual live provider results, greeting/flag/layout changes, and remaining physical-device checks. The historical counts below describe the earlier baseline; the refreshed answer-contract report now has 28 cases.
+
+## Tests already run (earlier baseline)
 
 See public/evidence/core-results.json: 40 actual guided-control cases plus four invalid-provider-output fixtures. See public/evidence/answer-contract-results.json: 20 additional application-control tests with simulated external providers. Counts are separated deliberately. A mock approving/rejecting an answer does not prove a real review model is accurate. No real API call, phone microphone test or human Telugu review has been completed in these reports.
 

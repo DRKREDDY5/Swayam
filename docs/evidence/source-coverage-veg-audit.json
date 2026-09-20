@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-20T03:50:10.693Z",
+  "scope": "Live You retrieval for public synthetic queries only. Source/provider bodies and configuration stay in memory; no answer generation.",
+  "results": [
+    {
+      "caseId": "source-audit-veg-biryani",
+      "providerHTTPStatus": 200,
+      "coverage": [
+        {
+          "publicURL": "https://www.vegrecipesofindia.com/vegetable-biryani/",
+          "rawChars": 15892,
+          "selectedChars": 4796,
+          "passageCount": 14,
+          "fullHasDum": true,
+          "fullHasRest": false,
+          "fullHasCoveredCooking": true,
+          "selectedHasDum": false,
+          "selectedHasRest": false,
+          "selectedHasCoveredCooking": true
+        }
+      ]
+    }
+  ]
+}

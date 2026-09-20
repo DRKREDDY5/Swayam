@@ -1,0 +1,15 @@
+{
+  "testedAt": "2026-09-20T00:41:44.598Z",
+  "scope": "Actual browser UI, live /api/ask, English typed paper boat",
+  "elapsedMs": 15905,
+  "httpStatus": 200,
+  "kind": "unsupported",
+  "reason": "citation-validation-unsupported-citation",
+  "paragraphCount": 0,
+  "renderedAnswer": 0,
+  "questionEcho": 0,
+  "boundaryText": [
+    "Let’s take a safe next stepI could not support an answer with reliable sources. Please make the question more specific or check the relevant official service.ListenNew question"
+  ],
+  "pageErrors": []
+}

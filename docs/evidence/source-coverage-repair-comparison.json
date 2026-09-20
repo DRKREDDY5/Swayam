@@ -1,0 +1,37 @@
+{
+  "scope": "Content-free comparison from observed live You retrieval audits. Earlier metadata is preserved from the audit result at the recorded timestamp; source/provider bodies and configuration were never persisted.",
+  "beforeObservedAt": "2026-09-20T03:40:23.448Z",
+  "afterObservedAt": "2026-09-20T03:44:28.721Z",
+  "before": {
+    "publicURL": "https://myfoodstory.com/chicken-biryani-recipe/",
+    "rawChars": 13653,
+    "selectedChars": 2035,
+    "passageCount": 6,
+    "fullHasIngredientQuantities": true,
+    "selectedHasIngredientQuantities": true,
+    "fullHasRiceCupAmount": true,
+    "fullHasChickenGramAmount": true,
+    "fullHasYogurtAmount": true,
+    "selectedHasRiceCupAmount": false,
+    "selectedHasChickenGramAmount": false,
+    "selectedHasYogurtAmount": false,
+    "fullHasFinalOpening": false,
+    "selectedHasFinalOpening": false
+  },
+  "after": {
+    "publicURL": "https://myfoodstory.com/chicken-biryani-recipe/",
+    "rawChars": 13653,
+    "selectedChars": 2646,
+    "passageCount": 10,
+    "fullHasIngredientQuantities": true,
+    "selectedHasIngredientQuantities": true,
+    "fullHasRiceCupAmount": true,
+    "fullHasChickenGramAmount": true,
+    "fullHasYogurtAmount": true,
+    "selectedHasRiceCupAmount": true,
+    "selectedHasChickenGramAmount": true,
+    "selectedHasYogurtAmount": true,
+    "fullHasFinalOpening": false,
+    "selectedHasFinalOpening": false
+  }
+}

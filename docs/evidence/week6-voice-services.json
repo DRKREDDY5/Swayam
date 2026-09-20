@@ -1,0 +1,27 @@
+{
+  "testedAt": "2026-09-20T16:47:25.921Z",
+  "mode": "actual browser greeting button + live providers; synthetic authored audio, not physical microphone",
+  "tts": {
+    "status": 200,
+    "elapsedMs": 8750,
+    "contentType": "audio/mpeg",
+    "bytes": 240370
+  },
+  "physicalMicrophoneTested": false,
+  "audibleQualityReviewed": false,
+  "transcription": {
+    "status": 200,
+    "elapsedMs": 885,
+    "syntheticGreetingTranscript": "నమస్కారం నేను స్వయం మీ రోజువారీ ప్రశ్నల్లో సహాయం చేస్తాను మీ ప్రశ్న చెప్పండి పండి లేదా type చేయండి ఆధార్ నెంబర్ OTP లేదా pin ఇక్కడ చెప్పవద్దు.",
+    "error": null
+  },
+  "invalidSpeech": {
+    "status": 422,
+    "error": "Audio could not be played. Ask again or use the displayed answer."
+  },
+  "preparedGuide": {
+    "elapsedMs": 296,
+    "label": "Authored chicken-biryani shortcut; no AI-answer latency comparison",
+    "visible": true
+  }
+}

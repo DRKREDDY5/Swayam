@@ -1,0 +1,27 @@
+{
+  "testedAt": "2026-09-20T16:44:45.820Z",
+  "mode": "actual browser greeting button + live providers; synthetic authored audio, not physical microphone",
+  "tts": {
+    "status": 200,
+    "elapsedMs": 10238,
+    "contentType": "audio/mpeg",
+    "bytes": 0
+  },
+  "physicalMicrophoneTested": false,
+  "audibleQualityReviewed": false,
+  "transcription": {
+    "status": 400,
+    "elapsedMs": 91,
+    "syntheticGreetingTranscript": null,
+    "error": "Use a short audio recording."
+  },
+  "invalidSpeech": {
+    "status": 422,
+    "error": "Audio could not be played. Ask again or use the displayed answer."
+  },
+  "preparedGuide": {
+    "elapsedMs": 285,
+    "label": "Authored chicken-biryani shortcut; no AI-answer latency comparison",
+    "visible": true
+  }
+}

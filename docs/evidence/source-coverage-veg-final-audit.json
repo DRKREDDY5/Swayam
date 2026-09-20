@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-09-20T14:50:57.855Z",
+  "scope": "One public-source retrieval. No questions, source bodies, provider payloads, configuration, or secrets persisted. Coverage uses numeric durations and ordering rather than the literal word dum.",
+  "publicURL": "https://www.vegrecipesofindia.com/vegetable-biryani/",
+  "rawChars": 15892,
+  "selectedChars": 4796,
+  "passageCount": 14,
+  "fullCoverage": {
+    "hasLiteralDum": true,
+    "cooking25to30MinuteCount": 4,
+    "rest5to7MinuteCount": 2,
+    "tawaCount": 6,
+    "lowHeatCount": 8,
+    "coveringCount": 19,
+    "layeringCount": 21,
+    "hasFinalCookingDurationAfterLayering": true,
+    "hasTawaAfterLayering": true,
+    "hasCoveredLowHeatFinalCooking": true,
+    "hasRest5to7MinutesAfterFinalCooking": true
+  },
+  "selectedCoverage": {
+    "hasLiteralDum": false,
+    "cooking25to30MinuteCount": 2,
+    "rest5to7MinuteCount": 1,
+    "tawaCount": 3,
+    "lowHeatCount": 3,
+    "coveringCount": 7,
+    "layeringCount": 6,
+    "hasFinalCookingDurationAfterLayering": true,
+    "hasTawaAfterLayering": true,
+    "hasCoveredLowHeatFinalCooking": false,
+    "hasRest5to7MinutesAfterFinalCooking": true
+  },
+  "conclusion": "No confirmed extraction loss: selected evidence includes the complete recipe card, final covered cooking on a tawa for 25–30 minutes after layering, and the 5–7 minute rest. The literal-dum and narrow low-heat wording proxies were inconclusive; no extractor change was made.",
+  "verification": {
+    "completeSelectedRecipeCard": true,
+    "selectedFinalCoveredCookingAfterLayering": true,
+    "selectedFinalCooking25to30Minutes": true,
+    "selectedRest5to7MinutesAfterCooking": true,
+    "wordingProxyLimitation": true,
+    "publicRecipeCardCorroborated": true,
+    "method": "The full consolidated instruction group was selected; numeric durations and tawa ordering were confirmed against live selected evidence. Public recipe-card verification identified a comparative verb-before-heat wording variant excluded by the initial low-heat regex."
+  }
+}

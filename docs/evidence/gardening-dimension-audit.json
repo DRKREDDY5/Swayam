@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-09-20T15:31:14.717Z",
+  "scope": "One public lookup. Dimension labels must be immediately adjacent to the amount/unit, with only an allowed short linking phrase. Matching cannot cross another number or the opposite dimension label. No raw bodies, configuration, or provider payloads persisted.",
+  "publicURL": "https://en.saednews.com/c/30/13626",
+  "sourceFound": true,
+  "rawChars": 5941,
+  "sourceSupportsDepth20": true,
+  "sourceSupportsDepth15": false,
+  "sourceSupportsOpening20": false,
+  "sourceSupportsOpening15": true,
+  "matchingPairCounts": {
+    "depth20": 1,
+    "depth15": 0,
+    "opening20": 0,
+    "opening15": 1
+  }
+}

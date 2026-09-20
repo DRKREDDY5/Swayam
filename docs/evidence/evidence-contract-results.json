@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-09-20T17:04:07.696Z",
+  "scope": "Deterministic source extraction and reference-integrity contracts. No live providers. Semantic grounding still requires the independent pipeline reviewer.",
+  "results": [
+    {
+      "name": "Recipe instructions beyond a long navigation prefix remain available",
+      "passed": true
+    },
+    {
+      "name": "Standalone headings provide context but cannot be cited as factual passages",
+      "passed": true
+    },
+    {
+      "name": "Server reconstructs exact source-owned quotes and source IDs",
+      "passed": true
+    },
+    {
+      "name": "Unknown evidence references fail closed",
+      "passed": true
+    },
+    {
+      "name": "Model-supplied quotes, source IDs and extra fields cannot replace server evidence",
+      "passed": true
+    },
+    {
+      "name": "Instruction attacks reject the entire source including otherwise useful instructions",
+      "passed": true
+    },
+    {
+      "name": "An unrelated contact footer cannot mask a separate instruction attack",
+      "passed": true
+    },
+    {
+      "name": "Screened public recipe passages survive unrelated private contact footers",
+      "passed": true
+    },
+    {
+      "name": "Private material inside a relevant passage is excluded",
+      "passed": true
+    },
+    {
+      "name": "Source, passage, total and reference-count budgets are enforced",
+      "passed": true
+    },
+    {
+      "name": "Every selected fragment is contiguous original source text",
+      "passed": true
+    },
+    {
+      "name": "Descriptions and snippets work when full crawl material is unavailable",
+      "passed": true
+    },
+    {
+      "name": "Duplicate or unsafe registry entries cannot be reconstructed",
+      "passed": true
+    },
+    {
+      "name": "Evidence IDs confer no semantic approval or answer acceptance",
+      "passed": true
+    },
+    {
+      "name": "Oversized source and private query produce no evidence",
+      "passed": true
+    },
+    {
+      "name": "Chunk boundaries cannot split private identity numbers into accepted evidence",
+      "passed": true
+    },
+    {
+      "name": "Privacy context spanning separate paragraphs is rejected before model use",
+      "passed": true
+    },
+    {
+      "name": "Overlong combined answer has a distinct fixed diagnostic code",
+      "passed": true
+    },
+    {
+      "name": "Long recipe preserves adjacent ingredient quantities and low-keyword parboiling step",
+      "passed": true
+    },
+    {
+      "name": "Long craft keeps both low-keyword shape transitions in the same ordered method",
+      "passed": true
+    },
+    {
+      "name": "Photo-only blocks cannot consume slots needed by the remaining craft instructions",
+      "passed": true
+    },
+    {
+      "name": "Real instruction text accompanying a picture remains exact selectable evidence",
+      "passed": true
+    },
+    {
+      "name": "Adjacent ingredient subsections retain main amounts rather than only the final garnish",
+      "passed": true
+    },
+    {
+      "name": "A second coherent method remains complete beyond the old secondary budget",
+      "passed": true
+    },
+    {
+      "name": "A coherent method that exceeds its budget is omitted instead of clipped",
+      "passed": true
+    },
+    {
+      "name": "Twelve short answer steps are allowed while a thirteenth is rejected",
+      "passed": true
+    },
+    {
+      "name": "Measured recipe card wins over a longer illustrated overview on the same page",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "testedAt": "2026-09-20T01:09:18.412Z",
+  "scope": "Actual browser MediaRecorder with synthetic WAV microphone, live transcription/search/model providers; deliberately failed playback",
+  "listening": true,
+  "transcribing": true,
+  "transcriptionStatus": 200,
+  "heardPaperBoat": true,
+  "editable": true,
+  "asksBeforeConfirmation": 0,
+  "askRequests": 1,
+  "httpStatus": 200,
+  "kind": "answer",
+  "reason": "source-backed-reviewed",
+  "checks": {
+    "citationQuotes": true,
+    "modelReview": true
+  },
+  "elapsedAnswerMs": 123923,
+  "renderedParagraphsBeforeAudio": 5,
+  "renderedParagraphsAfterAudio": 5,
+  "confirmedQuestionVisible": true,
+  "audioFailureVisible": true,
+  "speechRequests": 1,
+  "pageErrors": []
+}

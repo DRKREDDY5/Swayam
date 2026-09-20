@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-09-20T00:14:04.459Z",
+  "language": "te",
+  "stages": [
+    {
+      "stage": "planner",
+      "status": 200,
+      "elapsedMs": 2959,
+      "finish": "stop",
+      "contentLength": 128,
+      "reasoningLength": 456
+    },
+    {
+      "stage": "search",
+      "status": 200,
+      "elapsedMs": 325,
+      "results": 6
+    },
+    {
+      "stage": "draft",
+      "status": 200,
+      "elapsedMs": 24582,
+      "finish": "stop",
+      "contentLength": 1457,
+      "reasoningLength": 5844
+    },
+    {
+      "stage": "review",
+      "status": 200,
+      "elapsedMs": 19877,
+      "finish": "stop",
+      "contentLength": 67,
+      "reasoningLength": 5070,
+      "verdict": {
+        "supported": true,
+        "safe": true,
+        "languageCorrect": true
+      }
+    }
+  ],
+  "result": {
+    "kind": "answer",
+    "reason": "source-backed-reviewed",
+    "checks": {
+      "citationQuotes": true,
+      "modelReview": true
+    },
+    "sources": 1
+  }
+}

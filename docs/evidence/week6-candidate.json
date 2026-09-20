@@ -1,0 +1,157 @@
+{
+  "testedAt": "2026-09-20T16:25:15.124Z",
+  "mode": "live-provider-browser",
+  "cache": "Fresh browser context per case; sequential requests; same-context follow-up. No prepared guides selected.",
+  "results": [
+    {
+      "caseId": "B-01",
+      "language": "te",
+      "prompt": "చికెన్ బిర్యానీ వండటమెలా",
+      "elapsedMs": 21400,
+      "receivedMs": 21341,
+      "httpStatus": 200,
+      "kind": "answer",
+      "reason": "source-backed-reviewed",
+      "outcome": "answer",
+      "actualResponse": "చికెన్ బిర్యానీకి ముఖ్యంగా బాస్మతి అన్నం, చికెన్, పెరుగు మరియు ఉల్లిపాయలు కావాలి. ఒక పద్ధతి ప్రకారం 700 గ్రాముల ఎముకతో ఉన్న చికెన్, 2 కప్పుల బాస్మతి అన్నం, 3/4 కప్పు పెరుగు, 1/4 కప్పు టొమాటో ప్యూరీ, 1/2 కప్పు నూనె, 2 పెద్ద ఉల్లిపాయలు తీసుకోవాలి. మసాలాల్లో 1 టేబుల్ స్పూన్ అల్లం-వెల్లుల్లి పేస్ట్, 1 టేబుల్ స్పూన్ కారం, 1 టీ స్పూన్ పసుపు, 1 టీ స్పూన్ గరం మసాలా, 1 1/4 టీ స్పూన్ ఉప్పు చేర్చాలి. 2 టేబుల్ స్పూన్ వేడి పాలు, 10-15 కుంకుమపువ్వు పోగులు, 1 కప్పు పుదీనా, 1 కప్పు కొత్తిమీర, 1 1/2 టేబుల్ స్పూన్ నెయ్యి కూడా అవసరం.\n\nమొదట ఉల్లిపాయలను ముక్కలుగా కోసి, బాగా ఆరబెట్టి, నూనెలో మీడియం మంటపై 15 నిమిషాలు లోతైన బంగారు రంగు వచ్చేవరకు వేయించి, పేపర్ టవల్‌పై తీసి పక్కన పెట్టాలి. కాలిన ఉల్లిపాయలు బిర్యానీకి చేదు రుచి ఇస్తాయి కాబట్టి జాగ్రత్తగా వేయించాలి.\n\nచికెన్ మెరినేడ్ కోసం పెరుగు, టొమాటో ప్యూరీ, నూనె, అల్లం-వెల్లుల్లి పేస్ట్, కారం, పసుపు, గరం మసాలా, 2 టేబుల్ స్పూన్ వేయించిన ఉల్లిపాయలు, ఉప్పు అన్నీ కలిపి, చికెన్‌కు కోతలు పెట్టి మెరినేట్ చేయాలి. కనీసం రెండు గంటలు లేదా రాత్రి అంతా నాననివ్వాలి. అదే సమయంలో కుంకుమపువ్వు పోగులను వేడి పాలలో నానబెట్టి, స్పూన్ వెనుక భాగంతో కొద్దిగా నలపాలి.\n\nఅన్నం వండేందుకు పెద్ద పాత్రలో నీరు మరిగించి, ఉప్పు, బే ఆకు, లవంగాలు, యాలకులతో పాటు 2 కప్పుల బాస్మతి అన్నం వేసి సరిగ్గా 5 నిమిషాలు ఉడికించి పూర్తిగా వడకట్టాలి. ఇది అన్నాన్ని సుమారు 70 శాతం ఉడికిస్తుంది; రెండు వేళ్ల మధ్య ఒక మెతుకు నొక్కితే లోపల పచ్చిగా ఉండాలి. మసాలాలు అన్నంలోనే ఉంచాలి.\n\nఇప్పుడు మందమైన అడుగు ఉన్న పాత్రలో చికెన్ వేసి 4 నిమిషాలు వండి, ముక్కలు ఒకసారి తిప్పి, మూత పెట్టి మరో 3 నిమిషాలు ఉడికించి మంట ఆపేయాలి. సగం ఉల్లిపాయలు చికెన్ మీద చల్లి, కొత్తిమీర, పుదీనా అంతా పైన పంచి, తర్వాత అన్నం మొత్తం పైన పరచి, చివరగా కుంకుమపువ్వు పాలు, నెయ్యి పైన చల్లాలి.\n\nమూత పెట్టి సన్నని మంటపై 20 నిమిషాలు ఉడికించాలి; ఇది ఆవిరితో అన్నం పూర్తిగా ఉడకడానికి, చికెన్ ఉడకడానికి సహాయపడుతుంది. బిర్యానీ ఉడికిన తర్వాత 5-10 నిమిషాలు అలాగే ఉంచి, మిగిలిన ఉల్లిపాయలు పైన చల్లి, స్పూన్ లోతుగా పెట్టి అన్ని పొరలు తీసుకుని వేడిగా వడ్డించాలి.",
+      "paragraphs": [
+        "చికెన్ బిర్యానీకి ముఖ్యంగా బాస్మతి అన్నం, చికెన్, పెరుగు మరియు ఉల్లిపాయలు కావాలి. ఒక పద్ధతి ప్రకారం 700 గ్రాముల ఎముకతో ఉన్న చికెన్, 2 కప్పుల బాస్మతి అన్నం, 3/4 కప్పు పెరుగు, 1/4 కప్పు టొమాటో ప్యూరీ, 1/2 కప్పు నూనె, 2 పెద్ద ఉల్లిపాయలు తీసుకోవాలి. మసాలాల్లో 1 టేబుల్ స్పూన్ అల్లం-వెల్లుల్లి పేస్ట్, 1 టేబుల్ స్పూన్ కారం, 1 టీ స్పూన్ పసుపు, 1 టీ స్పూన్ గరం మసాలా, 1 1/4 టీ స్పూన్ ఉప్పు చేర్చాలి. 2 టేబుల్ స్పూన్ వేడి పాలు, 10-15 కుంకుమపువ్వు పోగులు, 1 కప్పు పుదీనా, 1 కప్పు కొత్తిమీర, 1 1/2 టేబుల్ స్పూన్ నెయ్యి కూడా అవసరం.S3",
+        "మొదట ఉల్లిపాయలను ముక్కలుగా కోసి, బాగా ఆరబెట్టి, నూనెలో మీడియం మంటపై 15 నిమిషాలు లోతైన బంగారు రంగు వచ్చేవరకు వేయించి, పేపర్ టవల్‌పై తీసి పక్కన పెట్టాలి. కాలిన ఉల్లిపాయలు బిర్యానీకి చేదు రుచి ఇస్తాయి కాబట్టి జాగ్రత్తగా వేయించాలి.S3",
+        "చికెన్ మెరినేడ్ కోసం పెరుగు, టొమాటో ప్యూరీ, నూనె, అల్లం-వెల్లుల్లి పేస్ట్, కారం, పసుపు, గరం మసాలా, 2 టేబుల్ స్పూన్ వేయించిన ఉల్లిపాయలు, ఉప్పు అన్నీ కలిపి, చికెన్‌కు కోతలు పెట్టి మెరినేట్ చేయాలి. కనీసం రెండు గంటలు లేదా రాత్రి అంతా నాననివ్వాలి. అదే సమయంలో కుంకుమపువ్వు పోగులను వేడి పాలలో నానబెట్టి, స్పూన్ వెనుక భాగంతో కొద్దిగా నలపాలి.S3",
+        "అన్నం వండేందుకు పెద్ద పాత్రలో నీరు మరిగించి, ఉప్పు, బే ఆకు, లవంగాలు, యాలకులతో పాటు 2 కప్పుల బాస్మతి అన్నం వేసి సరిగ్గా 5 నిమిషాలు ఉడికించి పూర్తిగా వడకట్టాలి. ఇది అన్నాన్ని సుమారు 70 శాతం ఉడికిస్తుంది; రెండు వేళ్ల మధ్య ఒక మెతుకు నొక్కితే లోపల పచ్చిగా ఉండాలి. మసాలాలు అన్నంలోనే ఉంచాలి.S3",
+        "ఇప్పుడు మందమైన అడుగు ఉన్న పాత్రలో చికెన్ వేసి 4 నిమిషాలు వండి, ముక్కలు ఒకసారి తిప్పి, మూత పెట్టి మరో 3 నిమిషాలు ఉడికించి మంట ఆపేయాలి. సగం ఉల్లిపాయలు చికెన్ మీద చల్లి, కొత్తిమీర, పుదీనా అంతా పైన పంచి, తర్వాత అన్నం మొత్తం పైన పరచి, చివరగా కుంకుమపువ్వు పాలు, నెయ్యి పైన చల్లాలి.S3",
+        "మూత పెట్టి సన్నని మంటపై 20 నిమిషాలు ఉడికించాలి; ఇది ఆవిరితో అన్నం పూర్తిగా ఉడకడానికి, చికెన్ ఉడకడానికి సహాయపడుతుంది. బిర్యానీ ఉడికిన తర్వాత 5-10 నిమిషాలు అలాగే ఉంచి, మిగిలిన ఉల్లిపాయలు పైన చల్లి, స్పూన్ లోతుగా పెట్టి అన్ని పొరలు తీసుకుని వేడిగా వడ్డించాలి.S3"
+      ],
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://myfoodstory.com/chicken-biryani-recipe/"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "diagnostics": {
+        "requestId": "b70ee0e5-d2ba-4d96-b144-6754097f00b0",
+        "caseId": "live-te-biryani",
+        "elapsedMs": 21000,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 8,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 936,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 542,
+            "completionTokens": 29,
+            "totalTokens": 571,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 325,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 76,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 18802,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3908,
+            "completionTokens": 1536,
+            "totalTokens": 5444,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 5,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 833,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 5005,
+            "completionTokens": 28,
+            "totalTokens": 5033,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "response",
+            "elapsedMs": 8,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "pageErrorCount": 0,
+      "usefulAnswer": null,
+      "usefulnessReview": "pending source/content audit"
+    }
+  ]
+}

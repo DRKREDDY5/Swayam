@@ -1,0 +1,306 @@
+{
+  "testedAt": "2026-09-20T01:04:59.960Z",
+  "scope": "Actual Chrome homepage at six viewport/language combinations; no question or speech provider calls",
+  "results": [
+    {
+      "language": "en",
+      "viewport": {
+        "width": 1365,
+        "height": 850
+      },
+      "documentWidth": 1365,
+      "overflow": false,
+      "voiceArt": {
+        "x": 55,
+        "y": 941,
+        "width": 135,
+        "height": 125,
+        "bottom": 1066,
+        "display": "block",
+        "fullyVisible": false
+      },
+      "familyArt": {
+        "x": 518,
+        "y": 376,
+        "width": 756,
+        "height": 300,
+        "bottom": 676,
+        "display": "block",
+        "fullyVisible": true
+      },
+      "questionInput": {
+        "x": 84,
+        "y": 630,
+        "width": 327,
+        "height": 110,
+        "bottom": 740,
+        "display": "flex",
+        "fullyVisible": true
+      },
+      "speakButton": {
+        "x": 84,
+        "y": 438,
+        "width": 327,
+        "height": 72,
+        "bottom": 510,
+        "display": "inline-flex",
+        "fullyVisible": true
+      },
+      "backgroundSketches": true,
+      "imagesLoaded": true,
+      "pageErrors": [],
+      "unexpectedProviderRequests": 0,
+      "screenshot": "docs/evidence/followup-layout-1365-en.png"
+    },
+    {
+      "language": "te",
+      "viewport": {
+        "width": 1365,
+        "height": 850
+      },
+      "documentWidth": 1365,
+      "overflow": false,
+      "voiceArt": {
+        "x": 55,
+        "y": 941,
+        "width": 135,
+        "height": 125,
+        "bottom": 1066,
+        "display": "block",
+        "fullyVisible": false
+      },
+      "familyArt": {
+        "x": 518,
+        "y": 323,
+        "width": 756,
+        "height": 300,
+        "bottom": 623,
+        "display": "block",
+        "fullyVisible": true
+      },
+      "questionInput": {
+        "x": 84,
+        "y": 630,
+        "width": 327,
+        "height": 110,
+        "bottom": 740,
+        "display": "flex",
+        "fullyVisible": true
+      },
+      "speakButton": {
+        "x": 84,
+        "y": 438,
+        "width": 327,
+        "height": 72,
+        "bottom": 510,
+        "display": "inline-flex",
+        "fullyVisible": true
+      },
+      "backgroundSketches": true,
+      "imagesLoaded": true,
+      "pageErrors": [],
+      "unexpectedProviderRequests": 0,
+      "screenshot": "docs/evidence/followup-layout-1365-te.png"
+    },
+    {
+      "language": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentWidth": 390,
+      "overflow": false,
+      "voiceArt": {
+        "x": 20,
+        "y": 106,
+        "width": 120,
+        "height": 90,
+        "bottom": 196,
+        "display": "block",
+        "fullyVisible": true
+      },
+      "familyArt": {
+        "x": 36,
+        "y": 1133,
+        "width": 318,
+        "height": 220,
+        "bottom": 1353,
+        "display": "block",
+        "fullyVisible": false
+      },
+      "questionInput": {
+        "x": 34,
+        "y": 620,
+        "width": 322,
+        "height": 112,
+        "bottom": 732,
+        "display": "flex",
+        "fullyVisible": true
+      },
+      "speakButton": {
+        "x": 34,
+        "y": 437,
+        "width": 322,
+        "height": 63,
+        "bottom": 500,
+        "display": "inline-flex",
+        "fullyVisible": true
+      },
+      "backgroundSketches": true,
+      "imagesLoaded": true,
+      "pageErrors": [],
+      "unexpectedProviderRequests": 0,
+      "screenshot": "docs/evidence/followup-layout-390-en.png"
+    },
+    {
+      "language": "te",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentWidth": 390,
+      "overflow": false,
+      "voiceArt": {
+        "x": 20,
+        "y": 106,
+        "width": 120,
+        "height": 90,
+        "bottom": 196,
+        "display": "block",
+        "fullyVisible": true
+      },
+      "familyArt": {
+        "x": 36,
+        "y": 1121,
+        "width": 318,
+        "height": 220,
+        "bottom": 1341,
+        "display": "block",
+        "fullyVisible": false
+      },
+      "questionInput": {
+        "x": 34,
+        "y": 620,
+        "width": 322,
+        "height": 112,
+        "bottom": 732,
+        "display": "flex",
+        "fullyVisible": true
+      },
+      "speakButton": {
+        "x": 34,
+        "y": 437,
+        "width": 322,
+        "height": 63,
+        "bottom": 500,
+        "display": "inline-flex",
+        "fullyVisible": true
+      },
+      "backgroundSketches": true,
+      "imagesLoaded": true,
+      "pageErrors": [],
+      "unexpectedProviderRequests": 0,
+      "screenshot": "docs/evidence/followup-layout-390-te.png"
+    },
+    {
+      "language": "en",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "documentWidth": 320,
+      "overflow": false,
+      "voiceArt": {
+        "x": 15,
+        "y": 107,
+        "width": 106,
+        "height": 88,
+        "bottom": 195,
+        "display": "block",
+        "fullyVisible": true
+      },
+      "familyArt": {
+        "x": 36,
+        "y": 1225,
+        "width": 248,
+        "height": 220,
+        "bottom": 1445,
+        "display": "block",
+        "fullyVisible": false
+      },
+      "questionInput": {
+        "x": 31,
+        "y": 612,
+        "width": 258,
+        "height": 122,
+        "bottom": 734,
+        "display": "flex",
+        "fullyVisible": true
+      },
+      "speakButton": {
+        "x": 31,
+        "y": 429,
+        "width": 258,
+        "height": 63,
+        "bottom": 492,
+        "display": "inline-flex",
+        "fullyVisible": true
+      },
+      "backgroundSketches": true,
+      "imagesLoaded": true,
+      "pageErrors": [],
+      "unexpectedProviderRequests": 0,
+      "screenshot": "docs/evidence/followup-layout-320-en.png"
+    },
+    {
+      "language": "te",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "documentWidth": 320,
+      "overflow": false,
+      "voiceArt": {
+        "x": 15,
+        "y": 107,
+        "width": 106,
+        "height": 88,
+        "bottom": 195,
+        "display": "block",
+        "fullyVisible": true
+      },
+      "familyArt": {
+        "x": 36,
+        "y": 1153,
+        "width": 248,
+        "height": 220,
+        "bottom": 1373,
+        "display": "block",
+        "fullyVisible": false
+      },
+      "questionInput": {
+        "x": 31,
+        "y": 612,
+        "width": 258,
+        "height": 112,
+        "bottom": 724,
+        "display": "flex",
+        "fullyVisible": true
+      },
+      "speakButton": {
+        "x": 31,
+        "y": 429,
+        "width": 258,
+        "height": 63,
+        "bottom": 492,
+        "display": "inline-flex",
+        "fullyVisible": true
+      },
+      "backgroundSketches": true,
+      "imagesLoaded": true,
+      "pageErrors": [],
+      "unexpectedProviderRequests": 0,
+      "screenshot": "docs/evidence/followup-layout-320-te.png"
+    }
+  ]
+}

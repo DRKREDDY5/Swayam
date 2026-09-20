@@ -1,0 +1,288 @@
+{
+  "testedAt": "2026-09-20T03:26:38.909Z",
+  "scope": "Actual rendered Chrome UI, live configured providers. First three cases concurrent, remaining sequential. All failures retained. No question/transcript/answer/source bodies, provider payloads, secrets, cookies, or tokens logged.",
+  "results": [
+    {
+      "caseId": "live-new-benign",
+      "language": "te",
+      "route": "uncached-ai",
+      "elapsedMs": 10536,
+      "httpStatus": 200,
+      "kind": "answer",
+      "reason": "source-backed-reviewed",
+      "outcome": "answer",
+      "usefulAnswer": true,
+      "renderedParagraphs": 5,
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://www.zone3vegetablegardening.com/post/how-to-grow-cilantro",
+        "https://www.ugaoo.com/blogs/kitchen-gardening/tips-to-grow-coriander-in-your-home-garden",
+        "https://johnsonfrancis.org/horticulture/growing-coriander-in-pots-at-home/"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "diagnostics": {
+        "requestId": "738f350b-cbfc-496e-a5ae-64f836ac3f42",
+        "caseId": "live-new-benign",
+        "elapsedMs": 10016,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 1,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 673,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 541,
+            "completionTokens": 32,
+            "totalTokens": 573,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 281,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 164,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 8468,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3642,
+            "completionTokens": 958,
+            "totalTokens": 4600,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 6,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 415,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3343,
+            "completionTokens": 19,
+            "totalTokens": 3362,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "response",
+            "elapsedMs": 1,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "pageErrorCount": 0
+    },
+    {
+      "caseId": "live-followup",
+      "language": "te",
+      "route": "uncached-ai",
+      "elapsedMs": 13164,
+      "httpStatus": 200,
+      "kind": "answer",
+      "reason": "source-backed-reviewed",
+      "outcome": "answer",
+      "usefulAnswer": true,
+      "renderedParagraphs": 5,
+      "questionVisible": true,
+      "sourceUrls": [
+        "https://www.allthatgrows.in/blogs/posts/growing-coriander-in-small-spaces-india"
+      ],
+      "checks": {
+        "citationQuotes": true,
+        "modelReview": true
+      },
+      "diagnostics": {
+        "requestId": "7a0fb610-5634-48f9-876a-3901e1f7e42b",
+        "caseId": "live-followup",
+        "elapsedMs": 12806,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 1881,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 1445,
+            "completionTokens": 30,
+            "totalTokens": 1475,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 2724,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 20,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 7834,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4473,
+            "completionTokens": 874,
+            "totalTokens": 5347,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 4,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "review",
+            "elapsedMs": 340,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 3170,
+            "completionTokens": 19,
+            "totalTokens": 3189,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "response",
+            "elapsedMs": 2,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "pageErrorCount": 0
+    }
+  ]
+}

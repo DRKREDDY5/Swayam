@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-20T17:28:20.414Z",
+  "scope": "Snapshot of available artifact bytes, compared privately against configured secret values and retained credential/token fields. No matched values, snippets, raw payloads, or configuration are emitted. Binary images are checked for literal byte leakage, not OCR. This sanitized report is created after the scan and is not included in its own file count; files written later are outside this snapshot.",
+  "roots": [
+    "docs/evidence",
+    "public/evidence",
+    ".sites-runtime",
+    "dist"
+  ],
+  "excludedDependencyCaches": [
+    "node_modules",
+    "pnpm-store"
+  ],
+  "configuredSecretsChecked": 3,
+  "scannedFiles": 801,
+  "matchedFiles": [],
+  "skippedFiles": [],
+  "passed": true
+}

@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-09-20T16:44:13.867Z",
+  "scope": "Real ask route and session/body/origin controls; synthetic answer generation and synthetic secrets. Signing-failure test injects a throwing signer. No live providers, microphone, or browser tested by this script.",
+  "results": [
+    {
+      "name": "Audio signing failure preserves the written answer and validation flags",
+      "passed": true
+    },
+    {
+      "name": "Successful signing remains bound to the browser session",
+      "passed": true
+    },
+    {
+      "name": "Invalid input is rejected before answer generation",
+      "passed": true
+    },
+    {
+      "name": "Cross-origin input is rejected before answer generation",
+      "passed": true
+    },
+    {
+      "name": "Unsigned context cannot reach the answer pipeline",
+      "passed": true
+    },
+    {
+      "name": "Oversized request is rejected before answer generation",
+      "passed": true
+    },
+    {
+      "name": "Ask route forwards the original request signal as the fifth pipeline argument",
+      "passed": true
+    },
+    {
+      "name": "Production and nonlocal requests never expose development diagnostics",
+      "passed": true
+    },
+    {
+      "name": "Local development diagnostics only contain approved counts and fixed codes",
+      "passed": true
+    }
+  ]
+}

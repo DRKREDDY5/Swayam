@@ -1,0 +1,16 @@
+{
+  "testedAt": "2026-09-20T01:05:16.078Z",
+  "scope": "Actual browser UI with live providers, English typed paper boat",
+  "elapsedMs": 49563,
+  "httpStatus": 200,
+  "kind": "answer",
+  "reason": "source-backed-reviewed",
+  "checks": {
+    "citationQuotes": true,
+    "modelReview": true
+  },
+  "paragraphCount": 5,
+  "renderedParagraphs": 5,
+  "questionVisible": true,
+  "pageErrors": []
+}

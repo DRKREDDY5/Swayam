@@ -1,0 +1,129 @@
+{
+  "testedAt": "2026-09-20T15:08:33.484Z",
+  "scope": "Actual rendered Chrome UI, live configured providers. First three cases concurrent, remaining sequential. All failures retained. No question/transcript/answer/source bodies, provider payloads, secrets, cookies, or tokens logged.",
+  "results": [
+    {
+      "caseId": "live-en-biryani",
+      "language": "en",
+      "route": "failed-ai",
+      "elapsedMs": 8652,
+      "httpStatus": 200,
+      "kind": "unsupported",
+      "reason": "citation-validation-output-too-long",
+      "outcome": "service-error",
+      "renderedAnswer": false,
+      "usefulAnswer": false,
+      "usefulnessReview": "no-generated-answer",
+      "renderedParagraphs": 0,
+      "questionVisible": true,
+      "sourceUrls": [],
+      "checks": null,
+      "diagnostics": {
+        "requestId": "e8a4f253-ce69-4771-80a2-e34950adf702",
+        "caseId": "live-en-biryani",
+        "elapsedMs": 8372,
+        "events": [
+          {
+            "stage": "input",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "planning",
+            "elapsedMs": 1149,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 531,
+            "completionTokens": 27,
+            "totalTokens": 558,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "search",
+            "elapsedMs": 387,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "extraction",
+            "elapsedMs": 40,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 6,
+            "usableSourceCount": 3
+          },
+          {
+            "stage": "draft",
+            "elapsedMs": 6794,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": 200,
+            "finishReason": "stop",
+            "promptTokens": 4010,
+            "completionTokens": 846,
+            "totalTokens": 4856,
+            "reasoningTokens": 0,
+            "sourceCount": null,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "citation-validation",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": "repair-spoken-identity",
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": 3,
+            "usableSourceCount": null
+          },
+          {
+            "stage": "response",
+            "elapsedMs": 0,
+            "attempt": 1,
+            "controlledError": null,
+            "providerHTTPStatus": null,
+            "finishReason": null,
+            "promptTokens": null,
+            "completionTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "sourceCount": null,
+            "usableSourceCount": null
+          }
+        ]
+      },
+      "pageErrorCount": 0
+    }
+  ]
+}

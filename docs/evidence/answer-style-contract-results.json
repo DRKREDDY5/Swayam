@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-09-20T17:07:23.375Z",
+  "scope": "Actual answer pipeline with synthetic provider responses and public fixture material. Verifies fragment repair, independent review, trusted simplification, schema capacity, and local output limits; no live providers or private configuration.",
+  "results": [
+    {
+      "id": "STYLE01",
+      "name": "English trailing conjunction is corrected once and freshly reviewed",
+      "passed": true
+    },
+    {
+      "id": "STYLE02",
+      "name": "Telugu trailing conjunction is corrected once and freshly reviewed",
+      "passed": true
+    },
+    {
+      "id": "STYLE03",
+      "name": "A corrected fragment still fails when independent semantic review rejects it",
+      "passed": true
+    },
+    {
+      "id": "STYLE04",
+      "name": "A repeated incomplete fragment cannot consume a second correction or receive review",
+      "passed": true
+    },
+    {
+      "id": "STYLE05",
+      "name": "A private fragment cannot be resubmitted for correction or review",
+      "passed": true
+    },
+    {
+      "id": "STYLE06",
+      "name": "en: confirmed simplification uses three paragraphs and trusted method-preserving style",
+      "passed": true
+    },
+    {
+      "id": "STYLE07",
+      "name": "te: confirmed simplification uses three paragraphs and trusted method-preserving style",
+      "passed": true
+    },
+    {
+      "id": "STYLE08",
+      "name": "Existing complete twelve-step answers remain valid while new generation fits the display budget",
+      "passed": true
+    },
+    {
+      "id": "STYLE09",
+      "name": "Simplification wording without a trusted previous answer does not restrict a new task to three slots",
+      "passed": true
+    },
+    {
+      "id": "STYLE10",
+      "name": "Local paragraph length validation still rejects text exceeding nine hundred characters",
+      "passed": true
+    },
+    {
+      "id": "STYLE11",
+      "name": "Local combined length validation still rejects text exceeding twenty-eight hundred characters",
+      "passed": true
+    },
+    {
+      "id": "STYLE12",
+      "name": "An overlong paragraph receives fixed targeted correction and must pass fresh review",
+      "passed": true
+    },
+    {
+      "id": "STYLE13",
+      "name": "A repeatedly overlong paragraph is rejected without a second correction or review",
+      "passed": true
+    },
+    {
+      "id": "STYLE14",
+      "name": "Trusted summary review scope requires both a prior answer and simplification wording",
+      "passed": true
+    },
+    {
+      "id": "STYLE15",
+      "name": "A simplification correction retains the same scoped independent review on its fresh attempt",
+      "passed": true
+    }
+  ]
+}

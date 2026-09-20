@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-09-20T15:03:34.816Z",
+  "scope": "One bounded You search for two public WikiHow pages. Synthetic source claims verified with boolean/counter checks against the rendered screenshots. No raw source/provider bodies or configuration persisted; no generation call.",
+  "results": [
+    {
+      "publicURL": "https://www.wikihow.com/Make-a-Paper-Boat",
+      "screenshot": "latency-final-verified-live-transliterated-boat.png",
+      "sourceFound": true,
+      "rawChars": 11831,
+      "selectedChars": 4077,
+      "passageCount": 12,
+      "fullCoverage": {
+        "rectangularPaper": true,
+        "longFirstFold": true,
+        "secondPerpendicularFold": true,
+        "topCornersToMiddle": true,
+        "bottomFlapsBothSides": true,
+        "firstTriangleToSquare": true,
+        "squareCornersFoldUp": true,
+        "secondTriangleToSquare": true,
+        "finalPullOpen": true,
+        "stabilizingWaterTest": true,
+        "squareMentionCount": 12
+      },
+      "selectedCoverage": {
+        "rectangularPaper": true,
+        "longFirstFold": true,
+        "secondPerpendicularFold": true,
+        "topCornersToMiddle": true,
+        "bottomFlapsBothSides": true,
+        "firstTriangleToSquare": true,
+        "squareCornersFoldUp": true,
+        "secondTriangleToSquare": true,
+        "finalPullOpen": true,
+        "stabilizingWaterTest": true,
+        "squareMentionCount": 7
+      }
+    },
+    {
+      "publicURL": "https://www.wikihow.com/Grow-Cilantro",
+      "screenshot": "latency-final-verified-live-new-benign.png",
+      "sourceFound": true,
+      "rawChars": 12525,
+      "selectedChars": 5248,
+      "passageCount": 13,
+      "fullCoverage": {
+        "potAtLeast18InchesWide": true,
+        "pot8to10InchesDeep": true,
+        "drainage": true,
+        "quarterInchCover": true,
+        "sunnyPlacement": true,
+        "southFacingWindow": true,
+        "germination7to10Days": true,
+        "sprayBottleWatering": true,
+        "harvest4to6InchesTall": true,
+        "twoThirdsLeaves": true,
+        "fourCropsPerPot": true
+      },
+      "selectedCoverage": {
+        "potAtLeast18InchesWide": true,
+        "pot8to10InchesDeep": true,
+        "drainage": true,
+        "quarterInchCover": true,
+        "sunnyPlacement": true,
+        "southFacingWindow": true,
+        "germination7to10Days": true,
+        "sprayBottleWatering": true,
+        "harvest4to6InchesTall": true,
+        "twoThirdsLeaves": true,
+        "fourCropsPerPot": true
+      }
+    }
+  ],
+  "conclusion": "The selected WikiHow passages contain the materials and all key folding transitions visible in the transliterated boat screenshot, including both square transitions and the final opening. The selected cilantro passages contain the rendered pot dimensions, planting depth, germination interval, watering method, harvesting height and leaf fraction. These are source-coverage checks, not a universal correctness guarantee."
+}

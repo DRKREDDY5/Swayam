@@ -1,0 +1,12 @@
+{
+  "testedAt": "2026-09-20T01:09:00.283Z",
+  "scope": "Actual browser UI with live providers, Telugu typed paper boat",
+  "elapsedMs": 93631,
+  "httpStatus": 200,
+  "kind": "unsupported",
+  "reason": "review-model-incomplete",
+  "paragraphCount": 0,
+  "renderedParagraphs": 0,
+  "questionVisible": true,
+  "pageErrors": []
+}

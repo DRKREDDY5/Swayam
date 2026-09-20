@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-09-20T15:08:55.365Z",
+  "scope": "Synthetic privacy-boundary reproduction against the actual agent code and an in-memory candidate. No source file edited, user data, credentials, or provider calls.",
+  "confirmedFalsePositives": 4,
+  "results": [
+    {
+      "caseId": "recipe-pinch-six-number-words",
+      "beforeReason": "spoken-identity",
+      "candidateReason": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "caseId": "recipe-pinch-four-digit-water",
+      "beforeReason": "credential",
+      "candidateReason": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "caseId": "shopping-six-number-words",
+      "beforeReason": "spoken-identity",
+      "candidateReason": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "caseId": "spinning-four-digit-context",
+      "beforeReason": "credential",
+      "candidateReason": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "caseId": "pin-digits",
+      "beforeReason": "credential",
+      "candidateReason": "credential",
+      "expected": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "otp-digits",
+      "beforeReason": "credential",
+      "candidateReason": "credential",
+      "expected": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "pin-spoken",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "otp-plural-spoken",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-plural-spoken",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-underscore",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-zero-width",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-full-width",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "pin-leetspeak",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "telugu-pin",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "telugu-otp-digits",
+      "beforeReason": "credential",
+      "candidateReason": "credential",
+      "expected": "credential",
+      "passed": true
+    },
+    {
+      "caseId": "aadhaar-spoken",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "telugu-aadhaar-spoken",
+      "beforeReason": "spoken-identity",
+      "candidateReason": "spoken-identity",
+      "expected": "spoken-identity",
+      "passed": true
+    },
+    {
+      "caseId": "identity-number",
+      "beforeReason": "identity-number",
+      "candidateReason": "identity-number",
+      "expected": "identity-number",
+      "passed": true
+    },
+    {
+      "caseId": "encoded-pin",
+      "beforeReason": "credential",
+      "candidateReason": "credential",
+      "expected": "credential",
+      "passed": true
+    }
+  ]
+}

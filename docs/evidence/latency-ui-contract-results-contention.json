@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-09-20T15:22:49.798Z",
+  "scope": "Actual rendered Chromium UI against the local app; all API responses, microphone capture, recognition, and playback mocked. No live providers or physical microphone/phone tested. Only case results and request/error counts are recorded.",
+  "results": [
+    {
+      "id": "UI01",
+      "name": "Typed question and written answer survive cloud and browser audio failure",
+      "passed": true,
+      "askRequests": 1,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 1,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI02",
+      "name": "Voice phases, editable transcript, and explicit confirmation before one submission",
+      "passed": true,
+      "askRequests": 1,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 1,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI03",
+      "name": "Cancel transcription ignores its late result and never submits",
+      "passed": true,
+      "askRequests": 0,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 1,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI04",
+      "name": "Private details added to transcript are blocked before ask request",
+      "passed": true,
+      "askRequests": 0,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 1,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI05",
+      "name": "Answer request failure preserves question and offers a working retry",
+      "passed": true,
+      "askRequests": 2,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI06",
+      "name": "Canceled native recognizer cannot clear a newer recording reference",
+      "passed": true,
+      "askRequests": 0,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI07",
+      "name": "Cancel aborts a pending question while preserving its text, prior answer, and editable draft",
+      "passed": true,
+      "askRequests": 2,
+      "abortedAskRequests": 1,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI08",
+      "name": "Late old response cannot overwrite a new question after cancellation",
+      "passed": true,
+      "askRequests": 2,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI09",
+      "name": "Greeting reports its own playback state without pretending to answer a question",
+      "passed": true,
+      "askRequests": 0,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 1,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI10",
+      "name": "Answer-ready status and optional playback remain separate from written content",
+      "passed": true,
+      "askRequests": 1,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 1,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI11",
+      "name": "Reset discards an uncooperative delayed answer",
+      "passed": true,
+      "askRequests": 1,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI12",
+      "name": "Language change cancels pending work and discards its stale response",
+      "passed": true,
+      "askRequests": 1,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI13",
+      "name": "Timeout displays a recoverable timeout message and retries the confirmed question",
+      "passed": true,
+      "askRequests": 2,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI14",
+      "name": "Temporary provider failure preserves previous useful answer and offers retry",
+      "passed": true,
+      "askRequests": 3,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI15",
+      "name": "Stopping pending answer audio aborts generation without hiding the written answer",
+      "passed": true,
+      "askRequests": 1,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 1,
+      "abortedSpeechRequests": 1,
+      "pageErrors": 0
+    },
+    {
+      "id": "UI16",
+      "name": "Starting microphone recording cancels a pending greeting before listening",
+      "passed": false,
+      "failedAt": "Open hydrated app"
+    },
+    {
+      "id": "UI17",
+      "name": "Insufficient evidence preserves the previous answer and retries the new question without changing safety refusal behavior",
+      "passed": true,
+      "askRequests": 4,
+      "abortedAskRequests": 0,
+      "transcriptionRequests": 0,
+      "speechRequests": 0,
+      "abortedSpeechRequests": 0,
+      "pageErrors": 0
+    }
+  ]
+}

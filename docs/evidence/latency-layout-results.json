@@ -1,0 +1,3000 @@
+{
+  "generatedAt": "2026-09-20T16:31:44.353Z",
+  "scope": "Actual rendered Chromium; all API responses mocked; screenshots contain synthetic public questions and answers. No live provider or physical phone checks.",
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "language": "te",
+      "states": [
+        {
+          "state": "initial",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 626.25,
+            "width": 348,
+            "height": 72,
+            "bottom": 698.25
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1270.203125,
+              "y": 33.5,
+              "width": 112.203125,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 626.25,
+              "width": 348,
+              "height": 72,
+              "bottom": 698.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 712.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 756.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 760.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 804.25
+            },
+            {
+              "location": "intro",
+              "x": 318.015625,
+              "y": 939.25,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 983.25
+            },
+            {
+              "location": "answer-control",
+              "x": 537.78125,
+              "y": 707.390625,
+              "width": 119.125,
+              "height": 45.5,
+              "bottom": 752.890625
+            },
+            {
+              "location": "answer-control",
+              "x": 665.90625,
+              "y": 707.390625,
+              "width": 98.71875,
+              "height": 45.5,
+              "bottom": 752.890625
+            },
+            {
+              "location": "answer-control",
+              "x": 773.625,
+              "y": 707.390625,
+              "width": 153.4375,
+              "height": 45.5,
+              "bottom": 752.890625
+            }
+          ]
+        },
+        {
+          "state": "loading",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 626.25,
+            "width": 348,
+            "height": 72,
+            "bottom": 698.25
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1270.203125,
+              "y": 33.5,
+              "width": 112.203125,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 626.25,
+              "width": 348,
+              "height": 72,
+              "bottom": 698.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 712.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 756.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 760.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 804.25
+            },
+            {
+              "location": "intro",
+              "x": 318.015625,
+              "y": 939.25,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 983.25
+            },
+            {
+              "location": "answer-progress",
+              "x": 1251.15625,
+              "y": 297.09375,
+              "width": 94.25,
+              "height": 48.59375,
+              "bottom": 345.6875
+            }
+          ]
+        },
+        {
+          "state": "answer",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 626.25,
+            "width": 348,
+            "height": 72,
+            "bottom": 698.25
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1270.203125,
+              "y": 33.5,
+              "width": 112.203125,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 626.25,
+              "width": 348,
+              "height": 72,
+              "bottom": 698.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 712.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 756.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 760.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 804.25
+            },
+            {
+              "location": "intro",
+              "x": 318.015625,
+              "y": 939.25,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 983.25
+            },
+            {
+              "location": "answer-control",
+              "x": 1302.40625,
+              "y": 318.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 362.796875
+            },
+            {
+              "location": "citation",
+              "x": 768.515625,
+              "y": 441.59375,
+              "width": 44,
+              "height": 44,
+              "bottom": 485.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 503.59375,
+              "width": 121.609375,
+              "height": 49,
+              "bottom": 552.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 668.390625,
+              "y": 503.59375,
+              "width": 253.5625,
+              "height": 44,
+              "bottom": 547.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 681.1875,
+              "width": 809.625,
+              "height": 113.78125,
+              "bottom": 794.96875
+            }
+          ]
+        },
+        {
+          "state": "recoverable-error",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 626.25,
+            "width": 348,
+            "height": 72,
+            "bottom": 698.25
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1270.203125,
+              "y": 33.5,
+              "width": 112.203125,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 626.25,
+              "width": 348,
+              "height": 72,
+              "bottom": 698.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 712.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 756.25
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 760.25,
+              "width": 348,
+              "height": 44,
+              "bottom": 804.25
+            },
+            {
+              "location": "intro",
+              "x": 318.015625,
+              "y": 939.25,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 983.25
+            },
+            {
+              "location": "retry",
+              "x": 555.78125,
+              "y": 324.984375,
+              "width": 198.765625,
+              "height": 44,
+              "bottom": 368.984375
+            },
+            {
+              "location": "answer-control",
+              "x": 1302.40625,
+              "y": 415.578125,
+              "width": 44,
+              "height": 44,
+              "bottom": 459.578125
+            },
+            {
+              "location": "citation",
+              "x": 768.515625,
+              "y": 538.375,
+              "width": 44,
+              "height": 44,
+              "bottom": 582.375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 600.375,
+              "width": 121.609375,
+              "height": 49,
+              "bottom": 649.375
+            },
+            {
+              "location": "answer-control",
+              "x": 668.390625,
+              "y": 600.375,
+              "width": 253.5625,
+              "height": 44,
+              "bottom": 644.375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 777.96875,
+              "width": 809.625,
+              "height": 113.78125,
+              "bottom": 891.75
+            }
+          ]
+        }
+      ],
+      "pageErrors": 0,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "language": "en",
+      "states": [
+        {
+          "state": "initial",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 597.359375,
+            "width": 348,
+            "height": 72,
+            "bottom": 669.359375
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1243.515625,
+              "y": 33.5,
+              "width": 138.890625,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 597.359375,
+              "width": 348,
+              "height": 72,
+              "bottom": 669.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 683.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 727.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 731.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 775.359375
+            },
+            {
+              "location": "intro",
+              "x": 291.125,
+              "y": 910.359375,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 954.359375
+            },
+            {
+              "location": "answer-control",
+              "x": 537.78125,
+              "y": 763.1875,
+              "width": 113.296875,
+              "height": 45.5,
+              "bottom": 808.6875
+            },
+            {
+              "location": "answer-control",
+              "x": 660.078125,
+              "y": 763.1875,
+              "width": 96.625,
+              "height": 45.5,
+              "bottom": 808.6875
+            },
+            {
+              "location": "answer-control",
+              "x": 765.703125,
+              "y": 763.1875,
+              "width": 164.15625,
+              "height": 45.5,
+              "bottom": 808.6875
+            }
+          ]
+        },
+        {
+          "state": "loading",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 597.359375,
+            "width": 348,
+            "height": 72,
+            "bottom": 669.359375
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1243.515625,
+              "y": 33.5,
+              "width": 138.890625,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 597.359375,
+              "width": 348,
+              "height": 72,
+              "bottom": 669.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 683.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 727.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 731.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 775.359375
+            },
+            {
+              "location": "intro",
+              "x": 291.125,
+              "y": 910.359375,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 954.359375
+            },
+            {
+              "location": "answer-progress",
+              "x": 1255.375,
+              "y": 297.09375,
+              "width": 90.03125,
+              "height": 48.59375,
+              "bottom": 345.6875
+            }
+          ]
+        },
+        {
+          "state": "answer",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 597.359375,
+            "width": 348,
+            "height": 72,
+            "bottom": 669.359375
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1243.515625,
+              "y": 33.5,
+              "width": 138.890625,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 597.359375,
+              "width": 348,
+              "height": 72,
+              "bottom": 669.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 683.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 727.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 731.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 775.359375
+            },
+            {
+              "location": "intro",
+              "x": 291.125,
+              "y": 910.359375,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 954.359375
+            },
+            {
+              "location": "answer-control",
+              "x": 1302.40625,
+              "y": 318.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 362.796875
+            },
+            {
+              "location": "citation",
+              "x": 768.515625,
+              "y": 441.59375,
+              "width": 44,
+              "height": 44,
+              "bottom": 485.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 503.59375,
+              "width": 111.375,
+              "height": 49,
+              "bottom": 552.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 658.15625,
+              "y": 503.59375,
+              "width": 172.0625,
+              "height": 44,
+              "bottom": 547.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 681.1875,
+              "width": 809.625,
+              "height": 113.78125,
+              "bottom": 794.96875
+            }
+          ]
+        },
+        {
+          "state": "recoverable-error",
+          "image": {
+            "x": 131.59375,
+            "y": 136,
+            "width": 252,
+            "height": 168,
+            "bottom": 304
+          },
+          "caption": {
+            "x": 87.59375,
+            "y": 312,
+            "width": 340,
+            "height": 46.1875,
+            "bottom": 358.1875
+          },
+          "heading": {
+            "x": 83.59375,
+            "y": 441.875,
+            "width": 348,
+            "height": 98.59375,
+            "bottom": 540.46875
+          },
+          "speak": {
+            "x": 83.59375,
+            "y": 597.359375,
+            "width": 348,
+            "height": 72,
+            "bottom": 669.359375
+          },
+          "header": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1324.8125,
+            "height": 112,
+            "bottom": 112
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 900,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 1243.515625,
+              "y": 33.5,
+              "width": 138.890625,
+              "height": 44,
+              "bottom": 77.5
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 597.359375,
+              "width": 348,
+              "height": 72,
+              "bottom": 669.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 683.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 727.359375
+            },
+            {
+              "location": "intro",
+              "x": 83.59375,
+              "y": 731.359375,
+              "width": 348,
+              "height": 44,
+              "bottom": 775.359375
+            },
+            {
+              "location": "intro",
+              "x": 291.125,
+              "y": 910.359375,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 954.359375
+            },
+            {
+              "location": "retry",
+              "x": 555.78125,
+              "y": 324.984375,
+              "width": 104.234375,
+              "height": 44,
+              "bottom": 368.984375
+            },
+            {
+              "location": "answer-control",
+              "x": 1302.40625,
+              "y": 415.578125,
+              "width": 44,
+              "height": 44,
+              "bottom": 459.578125
+            },
+            {
+              "location": "citation",
+              "x": 768.515625,
+              "y": 538.375,
+              "width": 44,
+              "height": 44,
+              "bottom": 582.375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 600.375,
+              "width": 111.375,
+              "height": 49,
+              "bottom": 649.375
+            },
+            {
+              "location": "answer-control",
+              "x": 658.15625,
+              "y": 600.375,
+              "width": 172.0625,
+              "height": 44,
+              "bottom": 644.375
+            },
+            {
+              "location": "answer-control",
+              "x": 536.78125,
+              "y": 777.96875,
+              "width": 809.625,
+              "height": 113.78125,
+              "bottom": 891.75
+            }
+          ]
+        }
+      ],
+      "pageErrors": 0,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "language": "te",
+      "states": [
+        {
+          "state": "initial",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 242.421875,
+              "y": 809.21875,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1484.5,
+              "width": 108.9375,
+              "height": 44,
+              "bottom": 1528.5
+            },
+            {
+              "location": "answer-control",
+              "x": 152.9375,
+              "y": 1484.5,
+              "width": 89.875,
+              "height": 44,
+              "bottom": 1528.5
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1536.5,
+              "width": 140.953125,
+              "height": 44,
+              "bottom": 1580.5
+            }
+          ]
+        },
+        {
+          "state": "loading",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 242.421875,
+              "y": 809.21875,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "answer-progress",
+              "x": 259.75,
+              "y": 1121.09375,
+              "width": 94.25,
+              "height": 48.59375,
+              "bottom": 1169.6875
+            }
+          ]
+        },
+        {
+          "state": "answer",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 242.421875,
+              "y": 809.21875,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "answer-control",
+              "x": 310,
+              "y": 1152.015625,
+              "width": 44,
+              "height": 44,
+              "bottom": 1196.015625
+            },
+            {
+              "location": "citation",
+              "x": 257.078125,
+              "y": 1314.109375,
+              "width": 44,
+              "height": 44,
+              "bottom": 1358.109375
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1376.109375,
+              "width": 121.609375,
+              "height": 50.890625,
+              "bottom": 1427
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1437,
+              "width": 253.5625,
+              "height": 48.59375,
+              "bottom": 1485.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1614.1875,
+              "width": 318,
+              "height": 113.78125,
+              "bottom": 1727.96875
+            }
+          ]
+        },
+        {
+          "state": "recoverable-error",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 242.421875,
+              "y": 809.21875,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "retry",
+              "x": 55,
+              "y": 1193.28125,
+              "width": 198.765625,
+              "height": 44,
+              "bottom": 1237.28125
+            },
+            {
+              "location": "answer-control",
+              "x": 310,
+              "y": 1314.46875,
+              "width": 44,
+              "height": 44,
+              "bottom": 1358.46875
+            },
+            {
+              "location": "citation",
+              "x": 257.078125,
+              "y": 1476.5625,
+              "width": 44,
+              "height": 44,
+              "bottom": 1520.5625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1538.5625,
+              "width": 121.609375,
+              "height": 50.890625,
+              "bottom": 1589.453125
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1599.453125,
+              "width": 253.5625,
+              "height": 48.59375,
+              "bottom": 1648.046875
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1776.640625,
+              "width": 318,
+              "height": 113.78125,
+              "bottom": 1890.421875
+            }
+          ]
+        }
+      ],
+      "pageErrors": 0,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "language": "en",
+      "states": [
+        {
+          "state": "initial",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 215.53125,
+              "y": 809.21875,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1497.09375,
+              "width": 103.484375,
+              "height": 44,
+              "bottom": 1541.09375
+            },
+            {
+              "location": "answer-control",
+              "x": 147.484375,
+              "y": 1497.09375,
+              "width": 87.921875,
+              "height": 44,
+              "bottom": 1541.09375
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1549.09375,
+              "width": 150.953125,
+              "height": 44,
+              "bottom": 1593.09375
+            }
+          ]
+        },
+        {
+          "state": "loading",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 215.53125,
+              "y": 809.21875,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "answer-progress",
+              "x": 263.96875,
+              "y": 1120.09375,
+              "width": 90.03125,
+              "height": 48.59375,
+              "bottom": 1168.6875
+            }
+          ]
+        },
+        {
+          "state": "answer",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 215.53125,
+              "y": 809.21875,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "answer-control",
+              "x": 310,
+              "y": 1141.90625,
+              "width": 44,
+              "height": 44,
+              "bottom": 1185.90625
+            },
+            {
+              "location": "citation",
+              "x": 257.078125,
+              "y": 1304,
+              "width": 44,
+              "height": 44,
+              "bottom": 1348
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1366,
+              "width": 111.375,
+              "height": 50.890625,
+              "bottom": 1416.890625
+            },
+            {
+              "location": "answer-control",
+              "x": 157.375,
+              "y": 1366,
+              "width": 172.0625,
+              "height": 50.890625,
+              "bottom": 1416.890625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1545.484375,
+              "width": 318,
+              "height": 113.78125,
+              "bottom": 1659.265625
+            }
+          ]
+        },
+        {
+          "state": "recoverable-error",
+          "image": {
+            "x": 111,
+            "y": 102,
+            "width": 168,
+            "height": 112,
+            "bottom": 214
+          },
+          "caption": {
+            "x": 20,
+            "y": 222,
+            "width": 350,
+            "height": 43.375,
+            "bottom": 265.375
+          },
+          "heading": {
+            "x": 34,
+            "y": 340.0625,
+            "width": 322,
+            "height": 81.1875,
+            "bottom": 421.25
+          },
+          "speak": {
+            "x": 34,
+            "y": 503.625,
+            "width": 322,
+            "height": 62.59375,
+            "bottom": 566.21875
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 366,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 844,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 330,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 503.625,
+              "width": 322,
+              "height": 62.59375,
+              "bottom": 566.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 580.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 624.21875
+            },
+            {
+              "location": "intro",
+              "x": 34,
+              "y": 628.21875,
+              "width": 322,
+              "height": 44,
+              "bottom": 672.21875
+            },
+            {
+              "location": "intro",
+              "x": 215.53125,
+              "y": 809.21875,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 853.21875
+            },
+            {
+              "location": "retry",
+              "x": 55,
+              "y": 1205.875,
+              "width": 104.234375,
+              "height": 44,
+              "bottom": 1249.875
+            },
+            {
+              "location": "answer-control",
+              "x": 310,
+              "y": 1296.46875,
+              "width": 44,
+              "height": 44,
+              "bottom": 1340.46875
+            },
+            {
+              "location": "citation",
+              "x": 257.078125,
+              "y": 1458.5625,
+              "width": 44,
+              "height": 44,
+              "bottom": 1502.5625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1520.5625,
+              "width": 111.375,
+              "height": 50.890625,
+              "bottom": 1571.453125
+            },
+            {
+              "location": "answer-control",
+              "x": 157.375,
+              "y": 1520.5625,
+              "width": 172.0625,
+              "height": 50.890625,
+              "bottom": 1571.453125
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1700.046875,
+              "width": 318,
+              "height": 113.78125,
+              "bottom": 1813.828125
+            }
+          ]
+        }
+      ],
+      "pageErrors": 0,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "language": "te",
+      "states": [
+        {
+          "state": "initial",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 175.421875,
+              "y": 779.625,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 823.625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1495.5,
+              "width": 108.9375,
+              "height": 44,
+              "bottom": 1539.5
+            },
+            {
+              "location": "answer-control",
+              "x": 152.9375,
+              "y": 1495.5,
+              "width": 89.875,
+              "height": 44,
+              "bottom": 1539.5
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1547.5,
+              "width": 140.953125,
+              "height": 44,
+              "bottom": 1591.5
+            }
+          ]
+        },
+        {
+          "state": "loading",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 175.421875,
+              "y": 779.625,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 823.625
+            },
+            {
+              "location": "answer-progress",
+              "x": 36,
+              "y": 1153.984375,
+              "width": 94.25,
+              "height": 48.59375,
+              "bottom": 1202.578125
+            }
+          ]
+        },
+        {
+          "state": "answer",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 175.421875,
+              "y": 779.625,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 823.625
+            },
+            {
+              "location": "answer-control",
+              "x": 240,
+              "y": 1135.015625,
+              "width": 44,
+              "height": 44,
+              "bottom": 1179.015625
+            },
+            {
+              "location": "citation",
+              "x": 44,
+              "y": 1379.65625,
+              "width": 44,
+              "height": 44,
+              "bottom": 1423.65625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1441.65625,
+              "width": 121.609375,
+              "height": 50.890625,
+              "bottom": 1492.546875
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1502.546875,
+              "width": 253.5625,
+              "height": 48.59375,
+              "bottom": 1551.140625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1679.734375,
+              "width": 248,
+              "height": 166.46875,
+              "bottom": 1846.203125
+            }
+          ]
+        },
+        {
+          "state": "recoverable-error",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 175.421875,
+              "y": 779.625,
+              "width": 113.578125,
+              "height": 44,
+              "bottom": 823.625
+            },
+            {
+              "location": "retry",
+              "x": 55,
+              "y": 1235.765625,
+              "width": 198.765625,
+              "height": 44,
+              "bottom": 1279.765625
+            },
+            {
+              "location": "answer-control",
+              "x": 240,
+              "y": 1356.953125,
+              "width": 44,
+              "height": 44,
+              "bottom": 1400.953125
+            },
+            {
+              "location": "citation",
+              "x": 44,
+              "y": 1601.59375,
+              "width": 44,
+              "height": 44,
+              "bottom": 1645.59375
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1663.59375,
+              "width": 121.609375,
+              "height": 50.890625,
+              "bottom": 1714.484375
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1724.484375,
+              "width": 253.5625,
+              "height": 48.59375,
+              "bottom": 1773.078125
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1901.671875,
+              "width": 248,
+              "height": 166.46875,
+              "bottom": 2068.140625
+            }
+          ]
+        }
+      ],
+      "pageErrors": 0,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "language": "en",
+      "states": [
+        {
+          "state": "initial",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 148.53125,
+              "y": 789.40625,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 833.40625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1567.515625,
+              "width": 103.484375,
+              "height": 44,
+              "bottom": 1611.515625
+            },
+            {
+              "location": "answer-control",
+              "x": 147.484375,
+              "y": 1567.515625,
+              "width": 87.921875,
+              "height": 44,
+              "bottom": 1611.515625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1619.515625,
+              "width": 150.953125,
+              "height": 44,
+              "bottom": 1663.515625
+            }
+          ]
+        },
+        {
+          "state": "loading",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 148.53125,
+              "y": 789.40625,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 833.40625
+            },
+            {
+              "location": "answer-progress",
+              "x": 36,
+              "y": 1163.765625,
+              "width": 90.03125,
+              "height": 48.59375,
+              "bottom": 1212.359375
+            }
+          ]
+        },
+        {
+          "state": "answer",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 148.53125,
+              "y": 789.40625,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 833.40625
+            },
+            {
+              "location": "answer-control",
+              "x": 240,
+              "y": 1144.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 1188.796875
+            },
+            {
+              "location": "citation",
+              "x": 44,
+              "y": 1344.890625,
+              "width": 44,
+              "height": 44,
+              "bottom": 1388.890625
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1406.890625,
+              "width": 111.375,
+              "height": 50.890625,
+              "bottom": 1457.78125
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1467.78125,
+              "width": 172.0625,
+              "height": 48.59375,
+              "bottom": 1516.375
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1675.5625,
+              "width": 248,
+              "height": 144.375,
+              "bottom": 1819.9375
+            }
+          ]
+        },
+        {
+          "state": "recoverable-error",
+          "image": {
+            "x": 88,
+            "y": 102,
+            "width": 144,
+            "height": 96,
+            "bottom": 198
+          },
+          "caption": {
+            "x": 15,
+            "y": 206,
+            "width": 290,
+            "height": 41.59375,
+            "bottom": 247.59375
+          },
+          "heading": {
+            "x": 31,
+            "y": 316.28125,
+            "width": 258,
+            "height": 75.375,
+            "bottom": 391.65625
+          },
+          "speak": {
+            "x": 31,
+            "y": 474.03125,
+            "width": 258,
+            "height": 62.59375,
+            "bottom": 536.625
+          },
+          "header": {
+            "x": 12,
+            "y": 0,
+            "width": 296,
+            "height": 88,
+            "bottom": 88
+          },
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "src": "/images/swayam-voice.png",
+          "captionText": "మీ సందేహం, మీ మాటల్లో. ఈ బటన్లకు మించి కూడా అడగవచ్చు.",
+          "captionLanguage": "te",
+          "duplicates": 1,
+          "domBeforeHeading": true,
+          "display": "flex",
+          "objectFit": "contain",
+          "flagVisible": true,
+          "overflow": false,
+          "viewportHeight": 568,
+          "coreButtons": [
+            {
+              "location": "header",
+              "x": 260,
+              "y": 21.5,
+              "width": 48,
+              "height": 44,
+              "bottom": 65.5
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 474.03125,
+              "width": 258,
+              "height": 62.59375,
+              "bottom": 536.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 550.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 594.625
+            },
+            {
+              "location": "intro",
+              "x": 31,
+              "y": 598.625,
+              "width": 258,
+              "height": 44,
+              "bottom": 642.625
+            },
+            {
+              "location": "intro",
+              "x": 148.53125,
+              "y": 789.40625,
+              "width": 140.46875,
+              "height": 44,
+              "bottom": 833.40625
+            },
+            {
+              "location": "retry",
+              "x": 55,
+              "y": 1216.65625,
+              "width": 104.234375,
+              "height": 44,
+              "bottom": 1260.65625
+            },
+            {
+              "location": "answer-control",
+              "x": 240,
+              "y": 1337.84375,
+              "width": 44,
+              "height": 44,
+              "bottom": 1381.84375
+            },
+            {
+              "location": "citation",
+              "x": 44,
+              "y": 1537.9375,
+              "width": 44,
+              "height": 44,
+              "bottom": 1581.9375
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1599.9375,
+              "width": 111.375,
+              "height": 50.890625,
+              "bottom": 1650.828125
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1660.828125,
+              "width": 172.0625,
+              "height": 48.59375,
+              "bottom": 1709.421875
+            },
+            {
+              "location": "answer-control",
+              "x": 36,
+              "y": 1868.609375,
+              "width": 248,
+              "height": 144.375,
+              "bottom": 2012.984375
+            }
+          ]
+        }
+      ],
+      "pageErrors": 0,
+      "passed": true
+    }
+  ]
+}

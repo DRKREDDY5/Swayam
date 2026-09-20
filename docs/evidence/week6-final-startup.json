@@ -1,0 +1,42 @@
+{
+  "testedAt": "2026-09-20T16:28:20.455Z",
+  "mode": "live-provider-browser",
+  "cache": "Fresh browser context per case; sequential requests; same-context follow-up. No prepared guides selected.",
+  "results": [
+    {
+      "caseId": "B-01",
+      "usefulAnswer": false,
+      "error": "browser-failure"
+    },
+    {
+      "caseId": "B-03",
+      "usefulAnswer": false,
+      "error": "browser-failure"
+    },
+    {
+      "caseId": "B-07",
+      "usefulAnswer": false,
+      "error": "browser-failure"
+    },
+    {
+      "caseId": "B-02",
+      "usefulAnswer": false,
+      "error": "browser-failure"
+    },
+    {
+      "caseId": "B-04",
+      "usefulAnswer": false,
+      "error": "browser-failure"
+    },
+    {
+      "caseId": "B-05",
+      "usefulAnswer": false,
+      "error": "browser-failure"
+    },
+    {
+      "caseId": "B-06",
+      "usefulAnswer": false,
+      "error": "browser-failure"
+    }
+  ]
+}
